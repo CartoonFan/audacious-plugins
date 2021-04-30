@@ -14,7 +14,6 @@
 #mesondefine INSTALL_DESKTOPFILE
 #mesondefine INSTALL_ICONFILE
 
-#mesondefine USE_DBUS
 #mesondefine USE_QT
 #mesondefine USE_GTK
 #mesondefine USE_GTK_OR_QT
@@ -23,7 +22,6 @@
 #mesondefine HAVE_LIBAV
 
 #define GLIB_VERSION_MIN_REQUIRED GLIB_VERSION_2_32
-#define GLIB_VERSION_MAX_ALLOWED GLIB_VERSION_2_32
 
 #mesondefine FILEWRITER_MP3
 #mesondefine FILEWRITER_FLAC

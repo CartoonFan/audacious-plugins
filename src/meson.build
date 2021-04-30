@@ -5,24 +5,29 @@ config_h_full_path = join_paths(meson.current_build_dir(), 'config.h')
 
 
 if cc.get_id() in ['gcc', 'clang']
-  add_project_arguments('-include', config_h_full_path, language: 'c')
-  add_project_arguments('-include', config_h_full_path, language: 'cpp')
+  add_project_arguments('-include', config_h_full_path, language: ['c', 'cpp'])
+
+  if have_darwin
+    add_project_arguments('-include', config_h_full_path, language: ['objc', 'objcpp'])
+  endif
 else
   error('Please implement -include handling for your chosen compiler.')
 endif
 
 
 # input plugins
-subdir('console')
 subdir('metronom')
 subdir('psf')
 subdir('tonegen')
 subdir('vtx')
 subdir('xsf')
 
+if get_option('console')
+  subdir('console')
+endif
+
 
 # effect plugins
-subdir('bs2b')
 subdir('compressor')
 subdir('crossfade')
 subdir('crystalizer')
@@ -31,6 +36,11 @@ subdir('mixer')
 subdir('silence-removal')
 subdir('stereo_plugin')
 subdir('voice_removal')
+subdir('bitcrusher')
+
+if get_option('bs2b')
+  subdir('bs2b')
+endif
 
 if get_option('resample')
   subdir('resample')
@@ -48,12 +58,12 @@ endif
 # transport plugins
 subdir('gio')
 
-if get_option('neon')
-  subdir('neon')
-endif
-
 if get_option('mms')
   subdir('mms')
+endif
+
+if get_option('neon')
+  subdir('neon')
 endif
 
 
@@ -83,39 +93,43 @@ endif
 
 # Qt-specific plugins
 if conf.has('USE_QT')
-  subdir('blur_scope-qt')
-  subdir('qt-spectrum')
-
-  subdir('qtui')
-  subdir('skins-qt')
-
   subdir('albumart-qt')
-  subdir('ampache')
+  subdir('blur_scope-qt')
   subdir('lyricwiki-qt')
   subdir('playlist-manager-qt')
-  subdir('qthotkey')
+  subdir('qt-spectrum')
+  subdir('qtui')
   subdir('search-tool-qt')
+  subdir('skins-qt')
   subdir('song-info-qt')
   subdir('statusicon-qt')
 
-  if get_option('qtaudio')
-    subdir('qtaudio')
-  endif
-
-  if get_option('vumeter')
-    subdir('vumeter-qt')
+  if get_option('ampache')
+    subdir('ampache')
   endif
 
   if get_option('gl-spectrum')
     subdir('qtglspectrum')
   endif
 
-  if get_option('streamtuner')
-    subdir('streamtuner')
+  if get_option('hotkey')
+    subdir('qthotkey')
   endif
 
   if get_option('moonstone')
     subdir('moonstone')
+  endif
+
+  if get_option('qtaudio')
+    subdir('qtaudio')
+  endif
+
+  if get_option('streamtuner')
+    subdir('streamtuner')
+  endif
+
+  if get_option('vumeter')
+    subdir('vumeter-qt')
   endif
 endif
 
@@ -124,20 +138,25 @@ endif
 if conf.has('USE_GTK')
   subdir('alarm')
   subdir('albumart')
-  subdir('aosd')
   subdir('blur_scope')
   subdir('cairo-spectrum')
   subdir('gtkui')
-  subdir('hotkey')
   subdir('ladspa')
-  subdir('lirc')
   subdir('playlist-manager')
   subdir('search-tool')
   subdir('skins')
   subdir('statusicon')
 
-  if get_option('gl-spectrum')
+  if get_option('aosd')
+    subdir('aosd')
+  endif
+
+  if get_option('gl-spectrum') and not have_darwin
     subdir('glspectrum')
+  endif
+
+  if get_option('hotkey')
+    subdir('hotkey')
   endif
 endif
 
@@ -147,76 +166,88 @@ if have_cdaudio
   subdir('cd-menu-items')
 endif
 
-if get_option('songchange')
-  subdir('songchange')
+if get_option('lirc')
+  subdir('lirc')
+endif
+
+if get_option('mac-media-keys') and have_darwin
+  subdir('mac-media-keys')
+endif
+
+if get_option('mpris2') and not have_windows
+  subdir('mpris2')
 endif
 
 if get_option('scrobbler2')
   subdir('scrobbler2')
 endif
 
-if get_option('mpris2') and get_option('dbus') and not have_windows
-  subdir('mpris2')
+if get_option('songchange')
+  subdir('songchange')
 endif
 
 
 # input plugins
-if get_option('mpg123')
-  subdir('mpg123')
-endif
-
-if get_option('ffaudio') in ['libav', 'ffmpeg']
-  subdir('ffaudio')
+if get_option('aac')
+  subdir('aac')
 endif
 
 if get_option('adplug')
   subdir('adplug')
 endif
 
-if get_option('flac')
-  subdir('flac')
-endif
-
-if get_option('vorbis')
-  subdir('vorbis')
-endif
-
-if get_option('faad')
-  subdir('aac')
-endif
-
-if get_option('modplug')
-  subdir('modplug')
-endif
-
-if get_option('openmpt')
-  subdir('openmpt')
-endif
-
-if get_option('wavpack')
-  subdir('wavpack')
-endif
-
-if get_option('sndfile')
-  subdir('sndfile')
+if get_option('amidiplug')
+  subdir('amidiplug')
 endif
 
 if have_cdaudio
   subdir('cdaudio')
 endif
 
-if get_option('amidiplug')
-  subdir('amidiplug')
+if get_option('ffaudio') in ['ffmpeg', 'libav']
+  subdir('ffaudio')
+endif
+
+if get_option('flac')
+  subdir('flac')
+endif
+
+if get_option('modplug')
+  subdir('modplug')
+endif
+
+if get_option('mpg123')
+  subdir('mpg123')
+endif
+
+if get_option('openmpt')
+  subdir('openmpt')
 endif
 
 if get_option('sid')
   subdir('sid')
 endif
 
+if get_option('sndfile')
+  subdir('sndfile')
+endif
+
+if get_option('vorbis')
+  subdir('vorbis')
+endif
+
+if get_option('wavpack')
+  subdir('wavpack')
+endif
+
 
 # output plugins
 if get_option('alsa')
   subdir('alsa')
+endif
+
+if get_option('coreaudio') and have_darwin
+  subdir('coreaudio')
 endif
 
 if get_option('filewriter')
@@ -235,7 +266,7 @@ if get_option('pulse')
   subdir('pulse')
 endif
 
-if get_option('sdl')
+if get_option('sdlout')
   subdir('sdlout')
 endif
 

@@ -1,7 +1,7 @@
 # Sinhala translation for Audacious Plugins
 # Copyright (C) Audacious translators
 # This file is distributed under the same license as the Audacious Plugins package.
-# 
+#
 # Translators:
 # Ashintha Rukmal Perera <ashintha@gmail.com>, 2013
 # Ashintha Rukmal Perera <ashintha@gmail.com>, 2013-2014
@@ -13,14 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Audacious Plugins\n"
 "Report-Msgid-Bugs-To: https://redmine.audacious-media-player.org/\n"
-"POT-Creation-Date: 2020-01-26 13:18+0100\n"
-"PO-Revision-Date: 2020-01-26 12:22+0000\n"
-"Last-Translator: Deenuka Niroshini Perera <deen.niro@gmail.com>\n"
-"Language-Team: Sinhala (http://www.transifex.com/audacious/audacious/language/si/)\n"
+"POT-Creation-Date: 2021-02-01 19:27+0100\n"
+"PO-Revision-Date: 2020-12-20 23:15+0000\n"
+"Last-Translator: Thomas Lange\n"
+"Language-Team: Sinhala (http://www.transifex.com/audacious/audacious/"
+"language/si/)\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: si\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/aac/aac.cc:19
@@ -36,19 +37,19 @@ msgstr "Adකෙවෙනිය (AdLib ධාවකය)"
 msgid "sequenced"
 msgstr "අනුපිළිවෙළ"
 
-#: src/adplug/adplug-xmms.cc:348 src/sid/xs_config.cc:61
+#: src/adplug/adplug-xmms.cc:349 src/sid/xs_config.cc:61
 msgid "<b>Output</b>"
 msgstr ""
 
-#: src/adplug/adplug-xmms.cc:349
+#: src/adplug/adplug-xmms.cc:350
 msgid "OPL Emulator:"
 msgstr ""
 
-#: src/adplug/adplug-xmms.cc:352
+#: src/adplug/adplug-xmms.cc:353
 msgid "Sample rate"
 msgstr ""
 
-#: src/adplug/adplug-xmms.cc:353 src/amidiplug/i_configure.cc:155
+#: src/adplug/adplug-xmms.cc:354 src/amidiplug/i_configure.cc:155
 #: src/bs2b/plugin.cc:141 src/console/plugin.cc:47
 #: src/modplug/plugin_main.cc:77 src/resample/resample.cc:201
 #: src/resample/resample.cc:207 src/resample/resample.cc:211
@@ -56,17 +57,17 @@ msgstr ""
 #: src/resample/resample.cc:223 src/resample/resample.cc:227
 #: src/resample/resample.cc:231 src/resample/resample.cc:235
 #: src/resample/resample.cc:239 src/resample/resample.cc:243
-#: src/sid/xs_config.cc:67 src/soxr/sox-resampler.cc:190
+#: src/sid/xs_config.cc:67 src/soxr/sox-resampler.cc:205
 msgid "Hz"
 msgstr "හර්ට්ස්"
 
-#: src/adplug/adplug-xmms.cc:354 src/gtkui/settings.cc:46
-#: src/modplug/plugin_main.cc:105 src/qtui/settings.cc:72
+#: src/adplug/adplug-xmms.cc:355 src/gtkui/settings.cc:46
+#: src/modplug/plugin_main.cc:105 src/qtui/settings.cc:81
 #: src/skins-qt/skins_cfg.cc:298 src/skins/skins_cfg.cc:280
 msgid "<b>Miscellaneous</b>"
 msgstr "<b>විවිධ</b>"
 
-#: src/adplug/adplug-xmms.cc:355
+#: src/adplug/adplug-xmms.cc:356
 msgid "Repeat song in endless loop"
 msgstr ""
 
@@ -83,7 +84,10 @@ msgid ""
 "A plugin that can be used to start playing at a certain time.\n"
 "\n"
 "Originally written by Adam Feakin and Daniel Stodden."
-msgstr "කිසියම් වෙලාවකදී ධාවනය කිරීමට යොදාගත හැකි පේනු මෘදුකාංගයක්.⏎\n⏎\nමුලින් ලියන ලද්දේ ඇඩම් ෆීකින් සහ ඩැනියෙල් ස්ටොඩ්ඩන් විසිනි."
+msgstr ""
+"කිසියම් වෙලාවකදී ධාවනය කිරීමට යොදාගත හැකි පේනු මෘදුකාංගයක්.⏎\n"
+"⏎\n"
+"මුලින් ලියන ලද්දේ ඇඩම් ෆීකින් සහ ඩැනියෙල් ස්ටොඩ්ඩන් විසිනි."
 
 #: src/alarm/interface.cc:28
 msgid ""
@@ -223,8 +227,9 @@ msgstr "හායනය"
 
 #: src/alarm/interface.cc:294 src/console/plugin.cc:41
 #: src/crossfade/crossfade.cc:52 src/crossfade/crossfade.cc:58
-#: src/lirc/lirc.cc:395 src/sid/xs_config.cc:85 src/sid/xs_config.cc:94
-#: src/sid/xs_config.cc:103 src/vumeter-qt/vumeter_qt.cc:39
+#: src/lirc/lirc.cc:395 src/notify/notify.cc:113 src/sid/xs_config.cc:85
+#: src/sid/xs_config.cc:94 src/sid/xs_config.cc:103
+#: src/vumeter-qt/vumeter_qt.cc:39
 msgid "seconds"
 msgstr "තප්පර​"
 
@@ -272,7 +277,7 @@ msgstr "මොනවාද මේ විකල්පයන්ගෙන් අද
 msgid "Help"
 msgstr "උදව්"
 
-#: src/albumart/albumart.cc:31 src/albumart-qt/albumart.cc:34
+#: src/albumart/albumart.cc:31 src/albumart-qt/albumart.cc:35
 msgid "Album Art"
 msgstr "ඇල්බම් කලාව"
 
@@ -285,8 +290,13 @@ msgid ""
 "ALSA Output Plugin for Audacious\n"
 "Copyright 2009-2012 John Lindgren\n"
 "\n"
-"My thanks to William Pitcock, author of the ALSA Output Plugin NG, whose code served as a reference when the ALSA manual was not enough."
-msgstr "ඔඩෙෂස් සඳහා ALSA ප්‍රතිදාන පේනු  මෘදුකාංගය\nප්‍රකාශන හිමිකම ජෝන් ලින්ඩ්ග්රෙන් 2009-2012\nමගේ ස්තුතිය ALSA  ප්‍රතිදාන පේනු  මෘදුකාංගයේ කර්තෘ විලියම් පිට්කොක් වෙත පුදන අතර ඔහුගේ කේතය ALSA අත්පොත ප්‍රමාණවත් නොවන විට ආදේශකයක් ලෙස භාවිතා කරන ලදී."
+"My thanks to William Pitcock, author of the ALSA Output Plugin NG, whose "
+"code served as a reference when the ALSA manual was not enough."
+msgstr ""
+"ඔඩෙෂස් සඳහා ALSA ප්‍රතිදාන පේනු  මෘදුකාංගය\n"
+"ප්‍රකාශන හිමිකම ජෝන් ලින්ඩ්ග්රෙන් 2009-2012\n"
+"මගේ ස්තුතිය ALSA  ප්‍රතිදාන පේනු  මෘදුකාංගයේ කර්තෘ විලියම් පිට්කොක් වෙත පුදන අතර ඔහුගේ කේතය "
+"ALSA අත්පොත ප්‍රමාණවත් නොවන විට ආදේශකයක් ලෙස භාවිතා කරන ලදී."
 
 #: src/alsa/config.cc:61
 msgid "(no description)"
@@ -316,7 +326,7 @@ msgstr "මිශ්‍ර කිරීමේ මූලද්‍රව්‍ය:
 msgid "AMIDI-Plug (MIDI Player)"
 msgstr "AMIDI-කෙවෙනිය (MIDI ධාවකය)"
 
-#: src/amidiplug/amidi-plug.cc:438
+#: src/amidiplug/amidi-plug.cc:445
 msgid ""
 "AMIDI-Plug\n"
 "modular MIDI music player\n"
@@ -401,7 +411,7 @@ msgid "Sample rate:"
 msgstr ""
 
 #: src/amidiplug/i_configure-fluidsynth.cc:57
-#: src/amidiplug/i_configure-fluidsynth.cc:532
+#: src/amidiplug/i_configure-fluidsynth.cc:536
 msgid "AMIDI-Plug - select SoundFont file"
 msgstr "AMIDI-පේනු - SoundFont ගොනුව තෝරන්න​"
 
@@ -414,12 +424,12 @@ msgid "_Open"
 msgstr ""
 
 #: src/amidiplug/i_configure-fluidsynth.cc:230
-#: src/amidiplug/i_configure-fluidsynth.cc:472 src/gtkui/columns.cc:46
+#: src/amidiplug/i_configure-fluidsynth.cc:476 src/gtkui/columns.cc:46
 msgid "File name"
 msgstr "ගොනු නම​"
 
 #: src/amidiplug/i_configure-fluidsynth.cc:234
-#: src/amidiplug/i_configure-fluidsynth.cc:475
+#: src/amidiplug/i_configure-fluidsynth.cc:479
 msgid "Size (bytes)"
 msgstr "ප්‍රමාණය (බයිට්ස්)"
 
@@ -645,8 +655,12 @@ msgstr "සංයුක්ත කළමනාකාරකය හඳුනා ග
 #: src/aosd/aosd_ui.cc:660
 msgid ""
 "Composite manager not detected;\n"
-"unless you know that you have one running, please activate a composite manager otherwise the OSD won't work properly"
-msgstr "සංයුක්ත කළමනාකාරකය හඳුනා ගෙන නොමැත​;\nදැනටමත් එකක් ධාවනය වෙමින් නොපවතී නම් කරුණාකර සංයුක්ත කළමනාකාරකයක් සක්‍රීය කරන්න​. එසේ නැතිනම් OSD නිසි ලෙස ක්‍රියා නොකරයි"
+"unless you know that you have one running, please activate a composite "
+"manager otherwise the OSD won't work properly"
+msgstr ""
+"සංයුක්ත කළමනාකාරකය හඳුනා ගෙන නොමැත​;\n"
+"දැනටමත් එකක් ධාවනය වෙමින් නොපවතී නම් කරුණාකර සංයුක්ත කළමනාකාරකයක් සක්‍රීය කරන්න​. එසේ නැතිනම් "
+"OSD නිසි ලෙස ක්‍රියා නොකරයි"
 
 #: src/aosd/aosd_ui.cc:668
 msgid "Composite manager not required for fake transparency"
@@ -759,7 +773,12 @@ msgid ""
 "Also thank you to Tony Vroon for mentoring and guiding me.\n"
 "\n"
 "This was a Google Summer of Code 2007 project."
-msgstr "ප්‍රකාශන හිමිකම් (C) 2007-2012 Calin Crisan <ccrisan@gmail.com> සහ පිරිස.\nවිශේෂ ස්තුතිය libcdio සංවර්ධකයන්ට <http://www.gnu.org/software/libcdio/>\nසහ libcddb සංවර්ධකයන්ට <http://libcddb.sourceforge.net/>.\nඋපදෙස් දීම සහ මගපෙන්වීම වෙනුවෙන් මගේ ස්තුතිය Tony Vroon වෙත පුද කරමි.\nමෙය 2007 වසරේ  Google Summer of Code ව්‍යාපෘතියකි."
+msgstr ""
+"ප්‍රකාශන හිමිකම් (C) 2007-2012 Calin Crisan <ccrisan@gmail.com> සහ පිරිස.\n"
+"විශේෂ ස්තුතිය libcdio සංවර්ධකයන්ට <http://www.gnu.org/software/libcdio/>\n"
+"සහ libcddb සංවර්ධකයන්ට <http://libcddb.sourceforge.net/>.\n"
+"උපදෙස් දීම සහ මගපෙන්වීම වෙනුවෙන් මගේ ස්තුතිය Tony Vroon වෙත පුද කරමි.\n"
+"මෙය 2007 වසරේ  Google Summer of Code ව්‍යාපෘතියකි."
 
 #: src/cdaudio/cdaudio-ng.cc:134
 msgid "<b>Device</b>"
@@ -828,50 +847,50 @@ msgstr "ශ්‍රව්‍ය CD කියවීමේ දෝෂය"
 msgid "Audio CD"
 msgstr "ශ්‍රව්‍ය CD"
 
-#: src/cdaudio/cdaudio-ng.cc:434 src/cdaudio/cdaudio-ng.cc:443
+#: src/cdaudio/cdaudio-ng.cc:435 src/cdaudio/cdaudio-ng.cc:444
 #, c-format
 msgid "Failed to open CD device %s."
 msgstr "CD අම්පන්නය  %s විවෘත කිරීම අසාර්ථක විය."
 
-#: src/cdaudio/cdaudio-ng.cc:446
+#: src/cdaudio/cdaudio-ng.cc:447
 msgid "No audio capable CD drive found."
 msgstr "ශ්‍රව්‍ය ක්‍රියා කල හැකි CD අම්පන්නය සොයාගත නොහැක."
 
-#: src/cdaudio/cdaudio-ng.cc:469
+#: src/cdaudio/cdaudio-ng.cc:470
 msgid "Drive is empty."
 msgstr "ධාවකය හිස්."
 
-#: src/cdaudio/cdaudio-ng.cc:471
+#: src/cdaudio/cdaudio-ng.cc:472
 msgid "Unsupported disk type."
 msgstr "සහාය නොමැති තැටි වර්ගයකි."
 
-#: src/cdaudio/cdaudio-ng.cc:495
+#: src/cdaudio/cdaudio-ng.cc:496
 msgid "Failed to finish initializing opened CD drive."
 msgstr "විවෘත කරන ලද CD අම්පන්නය අවසානය තෙක් ක්‍රියාත්මක කිරීම අසාර්ථක විය."
 
-#: src/cdaudio/cdaudio-ng.cc:508
+#: src/cdaudio/cdaudio-ng.cc:509
 msgid "Failed to retrieve first/last track number."
 msgstr "පළමු/අවසාන ඛණ්ඩ අංකය සොයාගැනීම අසාර්ථක විය."
 
-#: src/cdaudio/cdaudio-ng.cc:529
+#: src/cdaudio/cdaudio-ng.cc:530
 #, c-format
 msgid "Cannot read start/end LSN for track %d."
 msgstr "ඛණ්ඩ  %d හි පළමු/අවසාන LSN කියවීමට නොහැක."
 
-#: src/cdaudio/cdaudio-ng.cc:611
+#: src/cdaudio/cdaudio-ng.cc:612
 msgid "Failed to create the CDDB connection."
 msgstr ""
 
-#: src/cdaudio/cdaudio-ng.cc:677
+#: src/cdaudio/cdaudio-ng.cc:678
 msgid "Failed to query the CDDB server"
 msgstr "CDDB සේවාදායකය විමසුමට අපොහොසත් විය."
 
-#: src/cdaudio/cdaudio-ng.cc:679
+#: src/cdaudio/cdaudio-ng.cc:680
 #, c-format
 msgid "Failed to query the CDDB server: %s"
 msgstr "CDDB සේවාදායකය : %s විමසුමට අපොහොසත් විය."
 
-#: src/cdaudio/cdaudio-ng.cc:703
+#: src/cdaudio/cdaudio-ng.cc:704
 #, c-format
 msgid "Failed to read the CDDB info: %s"
 msgstr ""
@@ -918,7 +937,13 @@ msgid ""
 "Audacious plugin by:\n"
 "William Pitcock <nenolod@dereferenced.org>\n"
 "Shay Green <gblargg@gmail.com>"
-msgstr "ක්‍රීඩා_ගීත_Emu 0.5.2 මත වූ කොන්සෝල ගීත විකේතක එන්ජිම \nසහය වන ආකෘති: AY, GBS, GYM, HES, KSS, NSF, NSFE, SAP, SPC, VGM, VGZ\n\nඔඩෙෂස් පේනු මෘදුකාංගය:\n William Pitcock<nenolod@dereferenced.org>\nShay Green <gblargg@gmail.com>"
+msgstr ""
+"ක්‍රීඩා_ගීත_Emu 0.5.2 මත වූ කොන්සෝල ගීත විකේතක එන්ජිම \n"
+"සහය වන ආකෘති: AY, GBS, GYM, HES, KSS, NSF, NSFE, SAP, SPC, VGM, VGZ\n"
+"\n"
+"ඔඩෙෂස් පේනු මෘදුකාංගය:\n"
+" William Pitcock<nenolod@dereferenced.org>\n"
+"Shay Green <gblargg@gmail.com>"
 
 #: src/console/plugin.cc:30
 msgid "Bass:"
@@ -1128,7 +1153,7 @@ msgstr "ප්‍රතිරාව"
 msgid "FFmpeg Plugin"
 msgstr "FFmpeg පේනු මෘදුකාංගය "
 
-#: src/ffaudio/ffaudio-core.cc:627
+#: src/ffaudio/ffaudio-core.cc:628
 msgid ""
 "Multi-format audio decoding plugin for Audacious using\n"
 "FFmpeg multimedia framework (http://www.ffmpeg.org/)\n"
@@ -1136,7 +1161,13 @@ msgid ""
 "Audacious plugin by:\n"
 "William Pitcock <nenolod@nenolod.net>\n"
 "Matti Hämäläinen <ccr@tnsp.org>"
-msgstr "Audacious සඳහා වන බහු ආකෘති ශ්‍රව්‍ය විකේතන​ පේනු මෘදුකාංගය සෑදීමට යොදාගත්තේ⏎\nFFmpeg බහුමාධ්‍ය සැකිල්ල​ (http://www.ffmpeg.org/)⏎\n⏎\nAudacious පේනු මෘදුකාංගය සාදනු ලැබුවේ:⏎\nවිලියම් පිට්කොක් <nenolod@nenolod.net>⏎\nමැටී හැමලේයිනෙන් <ccr@tnsp.org>"
+msgstr ""
+"Audacious සඳහා වන බහු ආකෘති ශ්‍රව්‍ය විකේතන​ පේනු මෘදුකාංගය සෑදීමට යොදාගත්තේ⏎\n"
+"FFmpeg බහුමාධ්‍ය සැකිල්ල​ (http://www.ffmpeg.org/)⏎\n"
+"⏎\n"
+"Audacious පේනු මෘදුකාංගය සාදනු ලැබුවේ:⏎\n"
+"විලියම් පිට්කොක් <nenolod@nenolod.net>⏎\n"
+"මැටී හැමලේයිනෙන් <ccr@tnsp.org>"
 
 #: src/filewriter/filewriter.cc:48
 msgid "FileWriter Plugin"
@@ -1151,11 +1182,19 @@ msgstr ""
 
 #: src/filewriter/filewriter.cc:358
 msgid ""
-"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 
 #: src/filewriter/filewriter.cc:385
@@ -1299,12 +1338,12 @@ msgid "Joint Stereo"
 msgstr "එකතු වූ ත්‍රිමාණ​"
 
 #: src/filewriter/filewriter.cc:451 src/modplug/plugin_main.cc:57
-#: src/mpg123/mpg123.cc:254
+#: src/mpg123/mpg123.cc:255
 msgid "Stereo"
 msgstr "ත‍්‍ර‍්‍රිමාණ "
 
 #: src/filewriter/filewriter.cc:452 src/modplug/plugin_main.cc:56
-#: src/mpg123/mpg123.cc:255
+#: src/mpg123/mpg123.cc:256
 msgid "Mono"
 msgstr "තනි "
 
@@ -1435,13 +1474,19 @@ msgid ""
 "Ralf Ertzinger <ralf@skytale.net>\n"
 "\n"
 "http://www.skytale.net/projects/bmp-flac2/"
-msgstr "මූලක කේතය සකසනු ලැබුවේ⏎\nරැල්ෆ් අර්ට්සින්ගර් <ralf@skytale.net>⏎\n⏎\nhttp://www.skytale.net/projects/bmp-flac2/"
+msgstr ""
+"මූලක කේතය සකසනු ලැබුවේ⏎\n"
+"රැල්ෆ් අර්ට්සින්ගර් <ralf@skytale.net>⏎\n"
+"⏎\n"
+"http://www.skytale.net/projects/bmp-flac2/"
 
 #: src/gio/gio.cc:34
 msgid ""
 "GIO Plugin for Audacious\n"
 "Copyright 2009-2012 John Lindgren"
-msgstr "Audacious සඳහා වන​ GIO පේනු මෘදුකාංගය⏎\nප්‍රකාශන අයිතිය 2009-2012 ජෝන් ලින්ඩ්ග්‍රෙන්"
+msgstr ""
+"Audacious සඳහා වන​ GIO පේනු මෘදුකාංගය⏎\n"
+"ප්‍රකාශන අයිතිය 2009-2012 ජෝන් ලින්ඩ්ග්‍රෙන්"
 
 #: src/gio/gio.cc:42
 msgid "GIO Plugin"
@@ -1461,7 +1506,8 @@ msgid ""
 "Copyright 2013 Christophe Budé, John Lindgren, and Carlo Bramini\n"
 "\n"
 "Based on the XMMS plugin:\n"
-"Copyright 1998-2000 Peter Alm, Mikael Alm, Olle Hallnas, Thomas Nilsson, and 4Front Technologies\n"
+"Copyright 1998-2000 Peter Alm, Mikael Alm, Olle Hallnas, Thomas Nilsson, and "
+"4Front Technologies\n"
 "\n"
 "License: GPLv2+"
 msgstr ""
@@ -1474,22 +1520,27 @@ msgstr "OpenGL වර්ණාවලි විශ්ලේශකය"
 msgid "Entry number"
 msgstr "ඇතුලත් කිරීමේ අංකය​"
 
-#: src/gtkui/columns.cc:36 src/playlist-manager/playlist-manager.cc:199
-#: src/playlist-manager-qt/playlist-manager-qt.cc:184
-#: src/qtui/playlist_model.cc:35 src/streamtuner/icecast-model.cc:120
+#: src/gtkui/columns.cc:36 src/moonstone/playlist_model.cc:38
+#: src/moonstone/playlist_selection.cc:62
+#: src/playlist-manager/playlist-manager.cc:199
+#: src/playlist-manager-qt/playlist-manager-qt.cc:186
+#: src/qtui/playlist_model.cc:33 src/streamtuner/icecast-model.cc:120
 #: src/streamtuner/ihr-model.cc:159 src/streamtuner/shoutcast-model.cc:122
 msgid "Title"
 msgstr "මාතෘකාව"
 
-#: src/gtkui/columns.cc:37 src/qtui/playlist_model.cc:36
+#: src/gtkui/columns.cc:37 src/moonstone/playlist_model.cc:39
+#: src/qtui/playlist_model.cc:33
 msgid "Artist"
 msgstr "ශිල්පියා "
 
-#: src/gtkui/columns.cc:38 src/qtui/playlist_model.cc:36
+#: src/gtkui/columns.cc:38 src/moonstone/playlist_model.cc:39
+#: src/qtui/playlist_model.cc:33
 msgid "Year"
 msgstr "වර්ෂය "
 
-#: src/gtkui/columns.cc:39 src/qtui/playlist_model.cc:36
+#: src/gtkui/columns.cc:39 src/moonstone/playlist_model.cc:39
+#: src/qtui/playlist_model.cc:34
 msgid "Album"
 msgstr "ඇල්බමය "
 
@@ -1497,12 +1548,14 @@ msgstr "ඇල්බමය "
 msgid "Album artist"
 msgstr ""
 
-#: src/gtkui/columns.cc:41 src/qtui/playlist_model.cc:37
+#: src/gtkui/columns.cc:41 src/moonstone/playlist_model.cc:40
+#: src/qtui/playlist_model.cc:34
 msgid "Track"
 msgstr "ඛණ්ඩය "
 
-#: src/gtkui/columns.cc:42 src/qtui/playlist_model.cc:37
-#: src/streamtuner/icecast-model.cc:123 src/streamtuner/shoutcast-model.cc:125
+#: src/gtkui/columns.cc:42 src/moonstone/playlist_model.cc:40
+#: src/qtui/playlist_model.cc:34 src/streamtuner/icecast-model.cc:123
+#: src/streamtuner/shoutcast-model.cc:125
 #: src/streamtuner/shoutcast-model.cc:236
 msgid "Genre"
 msgstr "ප්‍රභේදය"
@@ -1511,7 +1564,8 @@ msgstr "ප්‍රභේදය"
 msgid "Queue position"
 msgstr "පේලියෙහි පිහිටන ස්ථානය​"
 
-#: src/gtkui/columns.cc:44 src/qtui/playlist_model.cc:38
+#: src/gtkui/columns.cc:44 src/moonstone/playlist_model.cc:41
+#: src/qtui/playlist_model.cc:35
 msgid "Length"
 msgstr "දිග"
 
@@ -1523,12 +1577,14 @@ msgstr "ගොනු පථය"
 msgid "Custom title"
 msgstr "අභිරුචි මාතෘකාව​"
 
-#: src/gtkui/columns.cc:48 src/qtui/playlist_model.cc:39
-#: src/streamtuner/icecast-model.cc:129 src/streamtuner/shoutcast-model.cc:134
+#: src/gtkui/columns.cc:48 src/moonstone/playlist_model.cc:42
+#: src/qtui/playlist_model.cc:36 src/streamtuner/icecast-model.cc:129
+#: src/streamtuner/shoutcast-model.cc:134
 msgid "Bitrate"
 msgstr "බිට් රේටය​"
 
-#: src/gtkui/columns.cc:49 src/qtui/playlist_model.cc:40
+#: src/gtkui/columns.cc:49 src/moonstone/playlist_model.cc:43
+#: src/qtui/playlist_model.cc:36
 msgid "Comment"
 msgstr "විවරණය"
 
@@ -1540,7 +1596,7 @@ msgstr ""
 msgid "Displayed columns"
 msgstr ""
 
-#: src/gtkui/layout.cc:73 src/search-tool-qt/search-tool-qt.cc:56
+#: src/gtkui/layout.cc:73 src/search-tool-qt/search-tool-qt.cc:58
 #: src/search-tool/search-tool.cc:48
 msgid "Search Tool"
 msgstr "සෙවීමේ මෙවලම "
@@ -1569,99 +1625,100 @@ msgstr "ඈඳීම​ අවලංගු කරන්න​"
 msgid "Disable"
 msgstr "අක්‍රීය කරන්න​"
 
-#: src/gtkui/menus.cc:79 src/qtui/menus.cc:103
+#: src/gtkui/menus.cc:79 src/qtui/menus.cc:107
 #: src/statusicon-qt/statusicon.cc:112 src/statusicon/statusicon.cc:282
 msgid "_Open Files ..."
 msgstr "_ගොනු විවෘත කරන්න ..."
 
-#: src/gtkui/menus.cc:80 src/qtui/menus.cc:107
+#: src/gtkui/menus.cc:80 src/qtui/menus.cc:111
 msgid "Open _URL ..."
 msgstr "_URL විවෘත කරන්න ..."
 
-#: src/gtkui/menus.cc:81 src/qtui/menus.cc:109
+#: src/gtkui/menus.cc:81 src/qtui/menus.cc:113
 msgid "_Add Files ..."
 msgstr "_ගොනු එකතු කරන්න ..."
 
-#: src/gtkui/menus.cc:82 src/qtui/menus.cc:113
+#: src/gtkui/menus.cc:82 src/qtui/menus.cc:118
 msgid "Add U_RL ..."
 msgstr "U_RL එකතු කරන්න ..."
 
-#: src/gtkui/menus.cc:84 src/qtui/menus.cc:115
+#: src/gtkui/menus.cc:84 src/qtui/menus.cc:120
 msgid "Search _Library"
 msgstr ""
 
-#: src/gtkui/menus.cc:86 src/qtui/menus.cc:118
+#: src/gtkui/menus.cc:86 src/qtui/menus.cc:123
 msgid "A_bout ..."
 msgstr "පි_ළිබඳ​ ..."
 
-#: src/gtkui/menus.cc:87 src/qtui/menus.cc:120
+#: src/gtkui/menus.cc:87 src/qtui/menus.cc:125
 msgid "_Settings ..."
 msgstr ""
 
-#: src/gtkui/menus.cc:88 src/qtui/menus.cc:126
+#: src/gtkui/menus.cc:88 src/qtui/menus.cc:131
 #: src/statusicon-qt/statusicon.cc:114 src/statusicon/statusicon.cc:284
 msgid "_Quit"
 msgstr "_පිටවෙන්න​"
 
-#: src/gtkui/menus.cc:92 src/gtkui/menus.cc:223 src/qtui/menus.cc:130
-#: src/qtui/playlist_tabs.cc:323 src/search-tool-qt/search-tool-qt.cc:498
+#: src/gtkui/menus.cc:92 src/gtkui/menus.cc:224
+#: src/moonstone/playlist_tabs.cc:306 src/qtui/menus.cc:135
+#: src/qtui/playlist_tabs.cc:328 src/search-tool-qt/search-tool-qt.cc:499
 #: src/search-tool/search-tool.cc:343 src/statusicon-qt/statusicon.cc:106
 #: src/statusicon/statusicon.cc:276
 msgid "_Play"
 msgstr "_ධාවනය කරන්න​"
 
-#: src/gtkui/menus.cc:93 src/qtui/menus.cc:132
+#: src/gtkui/menus.cc:93 src/qtui/menus.cc:137
 #: src/statusicon-qt/statusicon.cc:107 src/statusicon/statusicon.cc:277
 msgid "Paus_e"
 msgstr "විරාම_ය​"
 
-#: src/gtkui/menus.cc:94 src/qtui/menus.cc:134
+#: src/gtkui/menus.cc:94 src/qtui/menus.cc:139
 #: src/statusicon-qt/statusicon.cc:108 src/statusicon/statusicon.cc:278
 msgid "_Stop"
 msgstr "_නවත්වන්න​"
 
-#: src/gtkui/menus.cc:95 src/qtui/menus.cc:136
+#: src/gtkui/menus.cc:95 src/qtui/menus.cc:141
 #: src/statusicon-qt/statusicon.cc:109 src/statusicon/statusicon.cc:279
 msgid "Pre_vious"
 msgstr "ක_ලින්"
 
-#: src/gtkui/menus.cc:96 src/qtui/menus.cc:138
+#: src/gtkui/menus.cc:96 src/qtui/menus.cc:143
 #: src/statusicon-qt/statusicon.cc:110 src/statusicon/statusicon.cc:280
 msgid "_Next"
 msgstr "_ඊළඟ​"
 
-#: src/gtkui/menus.cc:97 src/qtui/menus.cc:140 src/skins/menus.cc:114
+#: src/gtkui/menus.cc:97 src/qtui/menus.cc:145 src/skins/menus.cc:114
 #: src/skins-qt/menus.cc:105
 msgid "Previous Album"
 msgstr ""
 
-#: src/gtkui/menus.cc:98 src/qtui/menus.cc:141 src/skins/menus.cc:115
+#: src/gtkui/menus.cc:98 src/qtui/menus.cc:146 src/skins/menus.cc:115
 #: src/skins-qt/menus.cc:106
 msgid "Next Album"
 msgstr ""
 
-#: src/gtkui/menus.cc:100 src/qtui/menus.cc:143
+#: src/gtkui/menus.cc:100 src/qtui/menus.cc:148
 msgid "_Repeat"
 msgstr "_නැවත​ ධාවනය​"
 
-#: src/gtkui/menus.cc:101 src/qtui/menus.cc:145
+#: src/gtkui/menus.cc:101 src/qtui/menus.cc:150
 msgid "S_huffle"
 msgstr "ක_ළවම් කිරීම​"
 
-#: src/gtkui/menus.cc:102 src/qtui/menus.cc:147
+#: src/gtkui/menus.cc:102 src/qtui/menus.cc:152
 msgid "Shuffle by Albu_m"
 msgstr ""
 
-#: src/gtkui/menus.cc:103 src/qtui/menus.cc:150
+#: src/gtkui/menus.cc:103 src/qtui/menus.cc:155
 msgid "N_o Playlist Advance"
 msgstr "ධාවන ලැස්තු නැ_ත "
 
-#: src/gtkui/menus.cc:104 src/qtui/menus.cc:152
+#: src/gtkui/menus.cc:104 src/qtui/menus.cc:157
 msgid "Stop A_fter This Song"
 msgstr "මෙම ගීතයෙන් පසු නවත්තන්න "
 
-#: src/gtkui/menus.cc:106 src/gtkui/menus.cc:207 src/qtui/menus.cc:157
-#: src/qtui/menus.cc:278
+#: src/gtkui/menus.cc:106 src/gtkui/menus.cc:208 src/qtui/menus.cc:162
+#: src/qtui/menus.cc:292
 msgid "Song _Info ..."
 msgstr "ගීත_තොරතුරු ..."
 
@@ -1673,158 +1730,159 @@ msgstr "මගහැර වේලාවට_පිවිසෙන්න ..."
 msgid "_Jump to Song ..."
 msgstr "_මගහැර ගීතයට පිවිසෙන්න ..."
 
-#: src/gtkui/menus.cc:110
+#: src/gtkui/menus.cc:110 src/qtui/menus.cc:165
 msgid "Set Repeat Point _A"
 msgstr "නැවත සිදුවන ස්ථාන_A පිහිටුවන්න "
 
-#: src/gtkui/menus.cc:111
+#: src/gtkui/menus.cc:111 src/qtui/menus.cc:167
 msgid "Set Repeat Point _B"
 msgstr "නැවත සිදුවන ස්ථාන_B පිහිටුවන්න "
 
-#: src/gtkui/menus.cc:112
+#: src/gtkui/menus.cc:112 src/qtui/menus.cc:169
 msgid "_Clear Repeat Points"
 msgstr "නැවත සිදුවන ස්ථාන හිස්කරන්න "
 
 #: src/gtkui/menus.cc:116 src/gtkui/menus.cc:123 src/gtkui/menus.cc:140
-#: src/qtui/menus.cc:161 src/qtui/menus.cc:168 src/qtui/menus.cc:185
+#: src/qtui/menus.cc:173 src/qtui/menus.cc:180 src/qtui/menus.cc:197
 msgid "By _Title"
 msgstr "මාතෘකා_වෙන්"
 
-#: src/gtkui/menus.cc:117 src/qtui/menus.cc:162
+#: src/gtkui/menus.cc:117 src/qtui/menus.cc:174
 msgid "By _File Name"
 msgstr ""
 
-#: src/gtkui/menus.cc:118 src/qtui/menus.cc:163
+#: src/gtkui/menus.cc:118 src/qtui/menus.cc:175
 msgid "By File _Path"
 msgstr "ගොනු පථයෙන් "
 
-#: src/gtkui/menus.cc:122 src/gtkui/menus.cc:139 src/qtui/menus.cc:167
-#: src/qtui/menus.cc:184
+#: src/gtkui/menus.cc:122 src/gtkui/menus.cc:139 src/qtui/menus.cc:179
+#: src/qtui/menus.cc:196
 msgid "By Track _Number"
 msgstr "ඛණ්ඩ_අංකයෙන් "
 
-#: src/gtkui/menus.cc:124 src/gtkui/menus.cc:141 src/qtui/menus.cc:169
-#: src/qtui/menus.cc:186
+#: src/gtkui/menus.cc:124 src/gtkui/menus.cc:141 src/qtui/menus.cc:181
+#: src/qtui/menus.cc:198
 msgid "By _Artist"
 msgstr "ශිල්පියා_ගෙන්"
 
-#: src/gtkui/menus.cc:125 src/gtkui/menus.cc:142 src/qtui/menus.cc:170
-#: src/qtui/menus.cc:187
+#: src/gtkui/menus.cc:125 src/gtkui/menus.cc:142 src/qtui/menus.cc:182
+#: src/qtui/menus.cc:199
 msgid "By Al_bum"
 msgstr "ඇල්බමයෙන් "
 
-#: src/gtkui/menus.cc:126 src/gtkui/menus.cc:143 src/qtui/menus.cc:171
-#: src/qtui/menus.cc:188
+#: src/gtkui/menus.cc:126 src/gtkui/menus.cc:143 src/qtui/menus.cc:183
+#: src/qtui/menus.cc:200
 msgid "By Albu_m Artist"
 msgstr ""
 
-#: src/gtkui/menus.cc:127 src/gtkui/menus.cc:144 src/qtui/menus.cc:172
-#: src/qtui/menus.cc:189
+#: src/gtkui/menus.cc:127 src/gtkui/menus.cc:144 src/qtui/menus.cc:184
+#: src/qtui/menus.cc:201
 msgid "By Release _Date"
 msgstr "පිට කල _දිනයෙන්"
 
-#: src/gtkui/menus.cc:128 src/gtkui/menus.cc:145 src/qtui/menus.cc:173
-#: src/qtui/menus.cc:190
+#: src/gtkui/menus.cc:128 src/gtkui/menus.cc:145 src/qtui/menus.cc:185
+#: src/qtui/menus.cc:202
 msgid "By _Genre"
 msgstr ""
 
-#: src/gtkui/menus.cc:129 src/gtkui/menus.cc:146 src/qtui/menus.cc:174
-#: src/qtui/menus.cc:191
+#: src/gtkui/menus.cc:129 src/gtkui/menus.cc:146 src/qtui/menus.cc:186
+#: src/qtui/menus.cc:203
 msgid "By _Length"
 msgstr "දුරෙන් "
 
-#: src/gtkui/menus.cc:130 src/gtkui/menus.cc:147 src/qtui/menus.cc:175
-#: src/qtui/menus.cc:192
+#: src/gtkui/menus.cc:130 src/gtkui/menus.cc:147 src/qtui/menus.cc:187
+#: src/qtui/menus.cc:204
 msgid "By _File Path"
 msgstr "ගොනු_පථයෙන්"
 
-#: src/gtkui/menus.cc:131 src/gtkui/menus.cc:148 src/qtui/menus.cc:176
-#: src/qtui/menus.cc:193
+#: src/gtkui/menus.cc:131 src/gtkui/menus.cc:148 src/qtui/menus.cc:188
+#: src/qtui/menus.cc:205
 msgid "By _Custom Title"
 msgstr "අභිරුචි_මාතෘකාවෙන් "
 
-#: src/gtkui/menus.cc:132 src/gtkui/menus.cc:149 src/qtui/menus.cc:177
-#: src/qtui/menus.cc:194
+#: src/gtkui/menus.cc:132 src/gtkui/menus.cc:149 src/qtui/menus.cc:189
+#: src/qtui/menus.cc:206
 msgid "By C_omment"
 msgstr ""
 
-#: src/gtkui/menus.cc:134 src/gtkui/menus.cc:151 src/qtui/menus.cc:179
-#: src/qtui/menus.cc:196
+#: src/gtkui/menus.cc:134 src/gtkui/menus.cc:151 src/qtui/menus.cc:191
+#: src/qtui/menus.cc:208
 msgid "R_everse Order"
 msgstr "අග_සිට මුලට​"
 
-#: src/gtkui/menus.cc:135 src/gtkui/menus.cc:152 src/qtui/menus.cc:181
-#: src/qtui/menus.cc:198
+#: src/gtkui/menus.cc:135 src/gtkui/menus.cc:152 src/qtui/menus.cc:193
+#: src/qtui/menus.cc:210
 msgid "_Random Order"
 msgstr "_සසම්භාවී පිළිවෙල​"
 
-#: src/gtkui/menus.cc:156 src/qtui/menus.cc:202
+#: src/gtkui/menus.cc:156 src/qtui/menus.cc:214
 msgid "_Play/Resume"
 msgstr ""
 
-#: src/gtkui/menus.cc:157 src/qtui/menus.cc:204
+#: src/gtkui/menus.cc:157 src/qtui/menus.cc:216
 msgid "_Refresh"
 msgstr "_නැවුම් කරන්න​"
 
-#: src/gtkui/menus.cc:159 src/qtui/menus.cc:208
+#: src/gtkui/menus.cc:159 src/qtui/menus.cc:220
 msgid "_Sort"
 msgstr "_අනුපිළිවෙලට සකසන්න​"
 
-#: src/gtkui/menus.cc:160 src/qtui/menus.cc:209
+#: src/gtkui/menus.cc:160 src/qtui/menus.cc:221
 msgid "Sort Se_lected"
 msgstr ""
 
-#: src/gtkui/menus.cc:161 src/qtui/menus.cc:211
+#: src/gtkui/menus.cc:161 src/qtui/menus.cc:223
 msgid "Remove _Duplicates"
 msgstr "අනුපිටපත්_ඉවත් කිරීම "
 
-#: src/gtkui/menus.cc:162 src/qtui/menus.cc:212
+#: src/gtkui/menus.cc:162 src/qtui/menus.cc:224
 msgid "Remove _Unavailable Files"
 msgstr "අනුපයෝජ්‍ය_ගොනු ඉවත් කරන්න"
 
 #: src/gtkui/menus.cc:164 src/playlist-manager/playlist-manager.cc:218
-#: src/playlist-manager-qt/playlist-manager-qt.cc:332 src/qtui/menus.cc:215
+#: src/playlist-manager-qt/playlist-manager-qt.cc:346 src/qtui/menus.cc:227
 msgid "_New"
 msgstr "_නව​"
 
-#: src/gtkui/menus.cc:165 src/qtui/menus.cc:216
+#: src/gtkui/menus.cc:165 src/qtui/menus.cc:228
 msgid "Ren_ame ..."
 msgstr "Ren_ame ..."
 
-#: src/gtkui/menus.cc:166 src/gtkui/menus.cc:225 src/qtui/menus.cc:217
-#: src/qtui/playlist_tabs.cc:328
+#: src/gtkui/menus.cc:166 src/gtkui/menus.cc:226
+#: src/moonstone/playlist_tabs.cc:311 src/qtui/menus.cc:229
+#: src/qtui/playlist_tabs.cc:333
 msgid "Remo_ve"
 msgstr ""
 
-#: src/gtkui/menus.cc:168 src/qtui/menus.cc:219
+#: src/gtkui/menus.cc:168 src/qtui/menus.cc:231
 msgid "_Import ..."
 msgstr "_ආයාත කරන්න​ ..."
 
-#: src/gtkui/menus.cc:169 src/qtui/menus.cc:220
+#: src/gtkui/menus.cc:169 src/qtui/menus.cc:232
 msgid "_Export ..."
 msgstr "_නිර්යාත කරන්න ..."
 
-#: src/gtkui/menus.cc:171 src/qtui/menus.cc:223
+#: src/gtkui/menus.cc:171 src/qtui/menus.cc:235
 msgid "Playlist _Manager ..."
 msgstr "ධාවන ලැයිස්තු_කළමනාකාරකය​ ..."
 
-#: src/gtkui/menus.cc:172 src/qtui/menus.cc:225
+#: src/gtkui/menus.cc:172 src/qtui/menus.cc:237
 msgid "_Queue Manager ..."
 msgstr "_පෙළගැස්ම කළමනාකරණය ..."
 
-#: src/gtkui/menus.cc:176 src/qtui/menus.cc:229
+#: src/gtkui/menus.cc:176 src/qtui/menus.cc:241
 msgid "Volume _Up"
 msgstr "ශබ්ද මට්ටම​ _වැඩි කරන්න"
 
-#: src/gtkui/menus.cc:177 src/qtui/menus.cc:231
+#: src/gtkui/menus.cc:177 src/qtui/menus.cc:243
 msgid "Volume _Down"
 msgstr "ශබ්ද මට්ටම​ _අඩු කරන්න"
 
-#: src/gtkui/menus.cc:179 src/qtui/menus.cc:235
+#: src/gtkui/menus.cc:179 src/qtui/menus.cc:247
 msgid "_Equalizer ..."
 msgstr ""
 
-#: src/gtkui/menus.cc:180 src/qtui/menus.cc:237
+#: src/gtkui/menus.cc:180 src/qtui/menus.cc:249
 msgid "E_ffects ..."
 msgstr ""
 
@@ -1836,93 +1894,98 @@ msgstr ""
 msgid "Audio _Settings ..."
 msgstr ""
 
-#: src/gtkui/menus.cc:187 src/qtui/menus.cc:246
+#: src/gtkui/menus.cc:187 src/qtui/menus.cc:258
 msgid "Show _Menu Bar"
 msgstr "_මෙනු තීරුව පෙන්වන්න​"
 
-#: src/gtkui/menus.cc:188 src/qtui/menus.cc:248
+#: src/gtkui/menus.cc:188 src/qtui/menus.cc:260
 msgid "Show I_nfo Bar"
 msgstr "තොරතුරු තී_රුව පෙන්වන්න​"
 
-#: src/gtkui/menus.cc:189 src/qtui/menus.cc:250
+#: src/gtkui/menus.cc:189 src/qtui/menus.cc:262
+msgid "Show Info Bar _Album Art"
+msgstr ""
+
+#: src/gtkui/menus.cc:190 src/qtui/menus.cc:264
 msgid "Show Info Bar Vis_ualization"
 msgstr "තොරතුරු තීරුවේ දෘෂ්ටි කල්පනය පෙන්වන්න "
 
-#: src/gtkui/menus.cc:190 src/qtui/menus.cc:252
+#: src/gtkui/menus.cc:191 src/qtui/menus.cc:266
 msgid "Show _Status Bar"
 msgstr "තත්ව _තීරුව පෙන්වන්න​"
 
-#: src/gtkui/menus.cc:192 src/qtui/menus.cc:256
+#: src/gtkui/menus.cc:193 src/qtui/menus.cc:270
 msgid "Show _Remaining Time"
 msgstr "ඉතුරුවී ඇති කාලය පෙන්වන්න."
 
-#: src/gtkui/menus.cc:194 src/qtui/menus.cc:260 src/skins/menus.cc:157
+#: src/gtkui/menus.cc:195 src/qtui/menus.cc:274 src/skins/menus.cc:157
 #: src/skins-qt/menus.cc:152
 msgid "_Visualizations ..."
 msgstr ""
 
-#: src/gtkui/menus.cc:198 src/qtui/menus.cc:264
+#: src/gtkui/menus.cc:199 src/qtui/menus.cc:278
 msgid "_File"
 msgstr "_ගොනුව​"
 
-#: src/gtkui/menus.cc:199 src/qtui/menus.cc:265
+#: src/gtkui/menus.cc:200 src/qtui/menus.cc:279
 msgid "_Playback"
 msgstr "_පිළිවැයුම​"
 
-#: src/gtkui/menus.cc:200 src/qtui/menus.cc:266
+#: src/gtkui/menus.cc:201 src/qtui/menus.cc:280
 msgid "P_laylist"
 msgstr "ධා_වන ලැයිස්තුව​"
 
-#: src/gtkui/menus.cc:201 src/gtkui/menus.cc:219 src/qtui/menus.cc:267
-#: src/qtui/menus.cc:296
+#: src/gtkui/menus.cc:202 src/gtkui/menus.cc:220 src/qtui/menus.cc:281
+#: src/qtui/menus.cc:310
 msgid "_Services"
 msgstr "_සේවා"
 
-#: src/gtkui/menus.cc:202 src/qtui/menus.cc:268
+#: src/gtkui/menus.cc:203 src/qtui/menus.cc:282
 msgid "_Output"
 msgstr "_ප්‍රතිදාන​"
 
-#: src/gtkui/menus.cc:203 src/qtui/menus.cc:269
+#: src/gtkui/menus.cc:204 src/qtui/menus.cc:283
 msgid "_View"
 msgstr "_දසුන​"
 
-#: src/gtkui/menus.cc:208 src/qtui/menus.cc:280
+#: src/gtkui/menus.cc:209 src/qtui/menus.cc:294
 msgid "_Queue/Unqueue"
 msgstr "_පෙළගස්වන්න​/පෙළගැස්ම අවලංගු කරන්න​"
 
-#: src/gtkui/menus.cc:210 src/qtui/menus.cc:283
+#: src/gtkui/menus.cc:211 src/qtui/menus.cc:297
 msgid "_Open Containing Folder"
 msgstr ""
 
-#: src/gtkui/menus.cc:211 src/qtui/menus.cc:285
+#: src/gtkui/menus.cc:212 src/qtui/menus.cc:299
 msgid "_Refresh Selected"
 msgstr ""
 
-#: src/gtkui/menus.cc:213 src/qtui/menus.cc:288
+#: src/gtkui/menus.cc:214 src/qtui/menus.cc:302
 msgid "Cu_t"
 msgstr "කපන්_න​"
 
-#: src/gtkui/menus.cc:214 src/qtui/menus.cc:289
+#: src/gtkui/menus.cc:215 src/qtui/menus.cc:303
 msgid "_Copy"
 msgstr "_පිටපත් කරන්න​"
 
-#: src/gtkui/menus.cc:215 src/qtui/menus.cc:290
+#: src/gtkui/menus.cc:216 src/qtui/menus.cc:304
 msgid "_Paste"
 msgstr "_අලවන්න​"
 
-#: src/gtkui/menus.cc:216 src/qtui/menus.cc:291
+#: src/gtkui/menus.cc:217 src/qtui/menus.cc:305
 msgid "Paste at _End"
 msgstr ""
 
-#: src/gtkui/menus.cc:217 src/qtui/menus.cc:293
+#: src/gtkui/menus.cc:218 src/qtui/menus.cc:307
 msgid "Select _All"
 msgstr "සියල්ල_තෝරන්න"
 
-#: src/gtkui/menus.cc:224 src/qtui/playlist_tabs.cc:326
+#: src/gtkui/menus.cc:225 src/moonstone/playlist_tabs.cc:309
+#: src/qtui/playlist_tabs.cc:331
 msgid "_Rename ..."
 msgstr "_නැවත නම් කිරීම​ ..."
 
-#: src/gtkui/settings.cc:35 src/qtui/settings.cc:57
+#: src/gtkui/settings.cc:35 src/qtui/settings.cc:63
 msgid "<b>Playlist Tabs</b>"
 msgstr ""
 
@@ -1930,241 +1993,252 @@ msgstr ""
 msgid "Always show tabs"
 msgstr ""
 
-#: src/gtkui/settings.cc:38 src/qtui/settings.cc:62
+#: src/gtkui/settings.cc:38 src/qtui/settings.cc:68
 msgid "Show entry counts"
 msgstr ""
 
-#: src/gtkui/settings.cc:40 src/qtui/settings.cc:65
+#: src/gtkui/settings.cc:40 src/qtui/settings.cc:71
 msgid "Show close buttons"
 msgstr ""
 
-#: src/gtkui/settings.cc:42 src/qtui/settings.cc:68
+#: src/gtkui/settings.cc:42 src/qtui/settings.cc:74
 msgid "<b>Playlist Columns</b>"
 msgstr ""
 
-#: src/gtkui/settings.cc:44 src/qtui/settings.cc:70
+#: src/gtkui/settings.cc:44 src/qtui/settings.cc:76
 msgid "Show column headers"
 msgstr ""
 
-#: src/gtkui/settings.cc:47 src/qtui/settings.cc:73
+#: src/gtkui/settings.cc:47 src/qtui/settings.cc:82
 msgid "Scroll on song change"
 msgstr ""
 
-#: src/gtkui/ui_gtk.cc:73
+#: src/gtkui/ui_gtk.cc:74
 msgid "GTK Interface"
 msgstr "GTK අතුරු මුහුණත"
 
-#: src/gtkui/ui_gtk.cc:236 src/skins/main.cc:227 src/skins-qt/main.cc:225
+#: src/gtkui/ui_gtk.cc:210 src/skins/main.cc:227 src/skins-qt/main.cc:225
 #, c-format
 msgid "%s - Audacious"
 msgstr "%s - Audacious"
 
-#: src/gtkui/ui_gtk.cc:238 src/qtui/main_window.cc:315
+#: src/gtkui/ui_gtk.cc:212 src/moonstone/main_window.cc:184
+#: src/qtui/main_window.cc:384
 msgid "Buffering ..."
 msgstr "අන්තරාචයනය..."
 
-#: src/gtkui/ui_gtk.cc:241 src/skins/main.cc:229 src/skins-qt/main.cc:227
+#: src/gtkui/ui_gtk.cc:215 src/skins/main.cc:229 src/skins-qt/main.cc:227
 msgid "Audacious"
 msgstr "ඔඩෙෂස් "
 
-#: src/gtkui/ui_gtk.cc:454 src/gtkui/ui_gtk.cc:485 src/gtkui/ui_gtk.cc:839
-#: src/hotkey/gui.cc:72 src/notify/osd.cc:70 src/qtui/main_window.cc:106
-#: src/qtui/main_window.cc:273 src/qtui/main_window.cc:274
+#: src/gtkui/ui_gtk.cc:428 src/gtkui/ui_gtk.cc:459 src/gtkui/ui_gtk.cc:817
+#: src/hotkey/gui.cc:71 src/moonstone/main_window.cc:67
+#: src/moonstone/main_window.cc:145 src/moonstone/main_window.cc:146
+#: src/notify/osd.cc:85 src/qthotkey/gui.cc:64 src/qtui/main_window.cc:154
+#: src/qtui/main_window.cc:346 src/qtui/main_window.cc:347
 #: src/skins/menus.cc:109 src/skins-qt/menus.cc:100
 msgid "Play"
 msgstr "ධාවනය කරන්න "
 
-#: src/gtkui/ui_gtk.cc:454 src/notify/osd.cc:67 src/qtui/main_window.cc:279
-#: src/qtui/main_window.cc:280 src/skins/menus.cc:110
-#: src/skins-qt/menus.cc:101
+#: src/gtkui/ui_gtk.cc:428 src/moonstone/main_window.cc:151
+#: src/moonstone/main_window.cc:152 src/notify/osd.cc:82
+#: src/qtui/main_window.cc:352 src/qtui/main_window.cc:353
+#: src/skins/menus.cc:110 src/skins-qt/menus.cc:101
 msgid "Pause"
 msgstr "විරාමය "
 
-#: src/gtkui/ui_gtk.cc:824 src/qtui/main_window.cc:97 src/skins/menus.cc:86
-#: src/skins-qt/menus.cc:77
+#: src/gtkui/ui_gtk.cc:803 src/moonstone/main_window.cc:57
+#: src/qtui/main_window.cc:145 src/skins/menus.cc:86 src/skins-qt/menus.cc:77
 msgid "Search Library"
 msgstr ""
 
-#: src/gtkui/ui_gtk.cc:832 src/qtui/main_window.cc:99
+#: src/gtkui/ui_gtk.cc:810 src/moonstone/main_window.cc:60
+#: src/qtui/main_window.cc:147
 msgid "Open Files"
 msgstr "ගොනු විවෘත කරන්න"
 
-#: src/gtkui/ui_gtk.cc:833 src/qtui/main_window.cc:101
+#: src/gtkui/ui_gtk.cc:811 src/moonstone/main_window.cc:62
+#: src/qtui/main_window.cc:149
 msgid "Add Files"
 msgstr "ගොනු එකතු කරන්න"
 
-#: src/gtkui/ui_gtk.cc:838 src/qtui/main_window.cc:104 src/skins/menus.cc:112
-#: src/skins-qt/menus.cc:103
+#: src/gtkui/ui_gtk.cc:816 src/moonstone/main_window.cc:65
+#: src/qtui/main_window.cc:152 src/skins/menus.cc:112 src/skins-qt/menus.cc:103
 msgid "Previous"
 msgstr "පෙර "
 
-#: src/gtkui/ui_gtk.cc:840 src/hotkey/gui.cc:74 src/qtui/main_window.cc:108
-#: src/skins/menus.cc:111 src/skins-qt/menus.cc:102
+#: src/gtkui/ui_gtk.cc:818 src/hotkey/gui.cc:73 src/moonstone/main_window.cc:69
+#: src/qthotkey/gui.cc:66 src/qtui/main_window.cc:156 src/skins/menus.cc:111
+#: src/skins-qt/menus.cc:102
 msgid "Stop"
 msgstr "නැවතීම "
 
-#: src/gtkui/ui_gtk.cc:841 src/notify/osd.cc:74 src/qtui/main_window.cc:115
-#: src/skins/menus.cc:113 src/skins-qt/menus.cc:104
+#: src/gtkui/ui_gtk.cc:819 src/moonstone/main_window.cc:76 src/notify/osd.cc:89
+#: src/qtui/main_window.cc:163 src/skins/menus.cc:113 src/skins-qt/menus.cc:104
 msgid "Next"
 msgstr "ඊළඟ  "
 
-#: src/gtkui/ui_gtk.cc:843 src/qtui/main_window.cc:118 src/qtui/menus.cc:240
-#: src/skins/menus.cc:79 src/skins-qt/menus.cc:69
+#: src/gtkui/ui_gtk.cc:821 src/moonstone/main_window.cc:79
+#: src/qtui/main_window.cc:166 src/qtui/menus.cc:252 src/skins/menus.cc:79
+#: src/skins-qt/menus.cc:69
 msgid "Record Stream"
 msgstr ""
 
-#: src/gtkui/ui_gtk.cc:874 src/qtui/main_window.cc:125 src/skins/menus.cc:103
-#: src/skins-qt/menus.cc:94
+#: src/gtkui/ui_gtk.cc:854 src/moonstone/main_window.cc:86
+#: src/qtui/main_window.cc:173 src/skins/menus.cc:103 src/skins-qt/menus.cc:94
 msgid "Repeat"
 msgstr "නැවත  කරන්න "
 
-#: src/gtkui/ui_gtk.cc:876 src/qtui/main_window.cc:128 src/skins/menus.cc:104
-#: src/skins-qt/menus.cc:95
+#: src/gtkui/ui_gtk.cc:857 src/moonstone/main_window.cc:89
+#: src/qtui/main_window.cc:176 src/skins/menus.cc:104 src/skins-qt/menus.cc:95
 msgid "Shuffle"
 msgstr "කලවම් කරන්න "
 
-#: src/gtkui/ui_statusbar.cc:63 src/qtui/status_bar.cc:153
+#: src/gtkui/ui_gtk.cc:1030 src/qtui/main_window.cc:123
+msgid "Menu"
+msgstr ""
+
+#: src/gtkui/ui_statusbar.cc:63 src/qtui/status_bar.cc:155
 msgid "mono"
 msgstr " තනි "
 
-#: src/gtkui/ui_statusbar.cc:65 src/qtui/status_bar.cc:155
+#: src/gtkui/ui_statusbar.cc:65 src/qtui/status_bar.cc:157
 msgid "stereo"
 msgstr "ත්‍රිමාන "
 
-#: src/gtkui/ui_statusbar.cc:67 src/qtui/status_bar.cc:158
+#: src/gtkui/ui_statusbar.cc:67 src/qtui/status_bar.cc:160
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
 msgstr[0] "%d නාලිකාව "
 msgstr[1] "%d නාලිකා "
 
-#: src/gtkui/ui_statusbar.cc:75 src/qtui/status_bar.cc:166
+#: src/gtkui/ui_statusbar.cc:75 src/qtui/status_bar.cc:168
 #, c-format
 msgid "%d kHz"
 msgstr ""
 
-#: src/gtkui/ui_statusbar.cc:81 src/qtui/status_bar.cc:172
+#: src/gtkui/ui_statusbar.cc:81 src/qtui/status_bar.cc:174
 #, c-format
 msgid "%d kbps"
 msgstr "%d තත්පරයට කිලෝ බයිට් "
 
-#: src/gtkui/ui_statusbar.cc:107 src/skins/main.cc:471
-#: src/skins-qt/main.cc:455
+#: src/gtkui/ui_statusbar.cc:107 src/skins/main.cc:471 src/skins-qt/main.cc:455
 msgid "Single mode."
 msgstr "තනි ප්‍රකාරය."
 
-#: src/gtkui/ui_statusbar.cc:109 src/skins/main.cc:473
-#: src/skins-qt/main.cc:457
+#: src/gtkui/ui_statusbar.cc:109 src/skins/main.cc:473 src/skins-qt/main.cc:457
 msgid "Playlist mode."
 msgstr "ධාවන ලැස්තු ප්‍රකාරය."
 
-#: src/gtkui/ui_statusbar.cc:117 src/skins/main.cc:479
-#: src/skins-qt/main.cc:463
+#: src/gtkui/ui_statusbar.cc:117 src/skins/main.cc:479 src/skins-qt/main.cc:463
 msgid "Stopping after song."
 msgstr "ගීතයකින් පසු නැවතීම."
 
-#: src/hotkey/gui.cc:71
+#: src/hotkey/gui.cc:70 src/qthotkey/gui.cc:63
 msgid "Previous track"
 msgstr "පෙර ඛණ්ඩය"
 
-#: src/hotkey/gui.cc:73
+#: src/hotkey/gui.cc:72 src/qthotkey/gui.cc:65
 msgid "Pause/Resume"
 msgstr "නැවතීම/නැවත ඇරඹීම  "
 
-#: src/hotkey/gui.cc:75
+#: src/hotkey/gui.cc:74 src/qthotkey/gui.cc:67
 msgid "Next track"
 msgstr "පසු ඛණ්ඩය "
 
-#: src/hotkey/gui.cc:76
+#: src/hotkey/gui.cc:75 src/qthotkey/gui.cc:68
 msgid "Step forward"
 msgstr ""
 
-#: src/hotkey/gui.cc:77
+#: src/hotkey/gui.cc:76 src/qthotkey/gui.cc:69
 msgid "Step backward"
 msgstr ""
 
-#: src/hotkey/gui.cc:78
+#: src/hotkey/gui.cc:77 src/qthotkey/gui.cc:70
 msgid "Mute"
 msgstr "නිහඬ කරන්න "
 
-#: src/hotkey/gui.cc:79
+#: src/hotkey/gui.cc:78 src/qthotkey/gui.cc:71
 msgid "Volume up"
 msgstr "ශබ්ද මට්ටම​ වැඩි කරන්න"
 
-#: src/hotkey/gui.cc:80
+#: src/hotkey/gui.cc:79 src/qthotkey/gui.cc:72
 msgid "Volume down"
 msgstr "ශබ්ද මට්ටම​ අඩු කරන්න"
 
-#: src/hotkey/gui.cc:81
+#: src/hotkey/gui.cc:80 src/qthotkey/gui.cc:73
 msgid "Jump to file"
 msgstr "මගහැර ගොනුවට පිවිසෙන්න "
 
-#: src/hotkey/gui.cc:82
+#: src/hotkey/gui.cc:81 src/qthotkey/gui.cc:74
 msgid "Toggle player window(s)"
 msgstr "ධාවක කවුළු(ව) පුරුක් කරන්න"
 
-#: src/hotkey/gui.cc:83
+#: src/hotkey/gui.cc:82 src/qthotkey/gui.cc:75
 msgid "Show On-Screen-Display"
 msgstr "තිරය මත සංදර්ශනය කර පෙන්වන්න "
 
-#: src/hotkey/gui.cc:84
+#: src/hotkey/gui.cc:83 src/qthotkey/gui.cc:76
 msgid "Toggle repeat"
 msgstr "නැවත කිරීම ටොගල් කරන්න"
 
-#: src/hotkey/gui.cc:85
+#: src/hotkey/gui.cc:84 src/qthotkey/gui.cc:77
 msgid "Toggle shuffle"
 msgstr "කළවම් කිරිම ටොගල් කරන්න"
 
-#: src/hotkey/gui.cc:86
+#: src/hotkey/gui.cc:85 src/qthotkey/gui.cc:78
 msgid "Toggle stop after current"
 msgstr "පවතින ගීතයෙන් පසු නැවතීම ටොගල් කරන්න "
 
-#: src/hotkey/gui.cc:87
+#: src/hotkey/gui.cc:86 src/qthotkey/gui.cc:79
 msgid "Raise player window(s)"
 msgstr "ධාවක කවුළු(ව) පෙන්වන්න"
 
-#: src/hotkey/gui.cc:97
+#: src/hotkey/gui.cc:97 src/qthotkey/gui.cc:97
 msgid "(none)"
 msgstr "(කිසිවක් නැත)"
 
-#: src/hotkey/gui.cc:234
+#: src/hotkey/gui.cc:260
 msgid ""
 "It is not recommended to bind the primary mouse buttons without modifiers.\n"
 "\n"
 "Do you want to continue?"
 msgstr ""
 
-#: src/hotkey/gui.cc:236
+#: src/hotkey/gui.cc:263
 msgid "Binding mouse buttons"
 msgstr "බැඳෙන මූසික බොත්තම් "
 
-#: src/hotkey/gui.cc:391
+#: src/hotkey/gui.cc:426
 msgid ""
 "Press a key combination inside a text field.\n"
 "You can also bind mouse buttons."
-msgstr "පෙළ ක්ෂේත්‍රය ඇතුලත යතුරු එකතුව ඔබන්න.\nඔබට මූසික බොත්තමද බැඳීය හැක."
+msgstr ""
+"පෙළ ක්ෂේත්‍රය ඇතුලත යතුරු එකතුව ඔබන්න.\n"
+"ඔබට මූසික බොත්තමද බැඳීය හැක."
 
-#: src/hotkey/gui.cc:396
+#: src/hotkey/gui.cc:432 src/qthotkey/gui.cc:167
 msgid "Hotkeys:"
 msgstr "විශේෂ බොත්තම්:"
 
-#: src/hotkey/gui.cc:413
+#: src/hotkey/gui.cc:448 src/qthotkey/gui.cc:169
 msgid "<b>Action:</b>"
 msgstr "<b>ක්‍රියාව:</b>"
 
-#: src/hotkey/gui.cc:420
+#: src/hotkey/gui.cc:454 src/qthotkey/gui.cc:170
 msgid "<b>Key Binding:</b>"
 msgstr "<b>යතුරු බැඳීම:</b>"
 
-#: src/hotkey/gui.cc:468
+#: src/hotkey/gui.cc:501 src/qthotkey/gui.cc:172
 msgid "_Add"
 msgstr ""
 
-#: src/hotkey/plugin.cc:61
+#: src/hotkey/plugin.cc:61 src/qthotkey/plugin.cc:77
 msgid "Global Hotkeys"
 msgstr "ගෝලීය විශේෂ බොත්තම්:"
 
-#: src/hotkey/plugin.cc:80
+#: src/hotkey/plugin.cc:76
 msgid ""
 "Global Hotkey Plugin\n"
 "Control the player with global key combinations or multimedia keys.\n"
@@ -2179,68 +2253,67 @@ msgid ""
 " Jeremy Tan <nsx@nsx.homeip.net>"
 msgstr ""
 
-#: src/jack/jack-ng.cc:51
+#: src/jack/jack-ng.cc:54
 msgid "JACK Output"
 msgstr "JACK ප්‍රතිදානය"
 
-#: src/jack/jack-ng.cc:123
+#: src/jack/jack-ng.cc:126
 msgid "Client name:"
 msgstr ""
 
-#: src/jack/jack-ng.cc:125
+#: src/jack/jack-ng.cc:128
 msgid "Automatically connect to output ports"
 msgstr ""
 
-#: src/jack/jack-ng.cc:127
+#: src/jack/jack-ng.cc:130
 msgid "Filter ports (regex, use any port if blank):"
 msgstr ""
 
-#: src/jack/jack-ng.cc:133
+#: src/jack/jack-ng.cc:136
 msgid "Connect to physical ports only"
 msgstr ""
 
-#: src/jack/jack-ng.cc:136
+#: src/jack/jack-ng.cc:139
 msgid "Upmix to"
 msgstr ""
 
-#: src/jack/jack-ng.cc:138
+#: src/jack/jack-ng.cc:141
 msgid "ports if input has fewer channels"
 msgstr ""
 
-#: src/jack/jack-ng.cc:140
+#: src/jack/jack-ng.cc:143
 msgid "Ignore insufficient number of ports"
 msgstr ""
 
-#: src/jack/jack-ng.cc:178
+#: src/jack/jack-ng.cc:181
 msgid "No JACK output ports were found. Please check settings."
 msgstr ""
 
-#: src/jack/jack-ng.cc:192
+#: src/jack/jack-ng.cc:195
 #, c-format
 msgid "Only %d JACK output ports were found but %d are required."
 msgstr ""
 
-#: src/jack/jack-ng.cc:207
+#: src/jack/jack-ng.cc:210
 #, c-format
 msgid "Failed to connect to JACK port %s."
 msgstr ""
 
-#: src/jack/jack-ng.cc:227
+#: src/jack/jack-ng.cc:230
 msgid ""
 "JACK supports only floating-point audio.  You must change the output bit "
 "depth to floating-point in Audacious settings."
 msgstr ""
 
-#: src/jack/jack-ng.cc:242
+#: src/jack/jack-ng.cc:245
 msgid "Failed to connect to the JACK server; is it running?"
 msgstr ""
 
-#: src/jack/jack-ng.cc:318
+#: src/jack/jack-ng.cc:321
 #, c-format
 msgid ""
-"The JACK server requires a sample rate of %d Hz, but Audacious is playing at"
-" %d Hz.  Please use the Sample Rate Converter effect to correct the "
-"mismatch."
+"The JACK server requires a sample rate of %d Hz, but Audacious is playing at "
+"%d Hz.  Please use the Sample Rate Converter effect to correct the mismatch."
 msgstr ""
 
 #: src/ladspa/plugin.cc:415
@@ -2257,7 +2330,10 @@ msgid ""
 "<small>Separate multiple paths with a colon.\n"
 "These paths are searched in addition to LADSPA_PATH.\n"
 "After adding new paths, press Enter to scan for new plugins.</small>"
-msgstr "<small>බහු පථ දෙතිතෙන් වෙන්කරන්න.\nමෙම පථ සොයන්නේ LADSPA_PATH එකට අමතරවය.\nනව පථ ඇතුලත් කිරීමෙන් පසුව, නව පේනු මෘදුකාංග සදහා Enter යතුර ඔබන්න.</small>"
+msgstr ""
+"<small>බහු පථ දෙතිතෙන් වෙන්කරන්න.\n"
+"මෙම පථ සොයන්නේ LADSPA_PATH එකට අමතරවය.\n"
+"නව පථ ඇතුලත් කිරීමෙන් පසුව, නව පේනු මෘදුකාංග සදහා Enter යතුර ඔබන්න.</small>"
 
 #: src/ladspa/plugin.cc:502
 msgid "Available plugins:"
@@ -2281,7 +2357,9 @@ msgstr "සිටුවම් "
 msgid ""
 "LADSPA Host for Audacious\n"
 "Copyright 2011 John Lindgren"
-msgstr "Audacious සඳහා වන LADSPA සත්කාරකය​⏎\nප්‍රකාශන අයිතිය​ 2011 ජෝන් ලින්ඩ්ග්‍රෙන්"
+msgstr ""
+"Audacious සඳහා වන LADSPA සත්කාරකය​⏎\n"
+"ප්‍රකාශන අයිතිය​ 2011 ජෝන් ලින්ඩ්ග්‍රෙන්"
 
 #: src/ladspa/plugin.h:78
 msgid "LADSPA Host"
@@ -2305,7 +2383,19 @@ msgid ""
 "Andrew O. Shadoura <bugzilla@tut.by>\n"
 "\n"
 "For more information about LIRC, see http://lirc.org."
-msgstr "LIRC දුරස්ථ පාලක daemon භාවිතයෙන් Audacious පාලනය කිරීමට සරල පේනු මෘදුකාංගයක්⏎\n⏎\nවෙත ඇතුලත් කරන ලද්දේ:⏎\nටෝන්‍ය් ව්‍රෝන් <chainsaw@gentoo.org>⏎\nජෝනෑස් හැජුමැකි <jharjuma@gmail.com>⏎\n⏎\nXMMS LIRC පේනු මෘදුකාංගයමත පදනම් විය​:⏎\nCarl van Schaik <carl@leg.uct.ac.za>⏎\nChristoph Bartelmus <xmms@bartelmus.de>⏎\nAndrew O. Shadoura <bugzilla@tut.by>⏎\n⏎\nLIRC පිළිබඳ වැඩි විස්තර සඳහා,http://lirc.org බලන්න​."
+msgstr ""
+"LIRC දුරස්ථ පාලක daemon භාවිතයෙන් Audacious පාලනය කිරීමට සරල පේනු මෘදුකාංගයක්⏎\n"
+"⏎\n"
+"වෙත ඇතුලත් කරන ලද්දේ:⏎\n"
+"ටෝන්‍ය් ව්‍රෝන් <chainsaw@gentoo.org>⏎\n"
+"ජෝනෑස් හැජුමැකි <jharjuma@gmail.com>⏎\n"
+"⏎\n"
+"XMMS LIRC පේනු මෘදුකාංගයමත පදනම් විය​:⏎\n"
+"Carl van Schaik <carl@leg.uct.ac.za>⏎\n"
+"Christoph Bartelmus <xmms@bartelmus.de>⏎\n"
+"Andrew O. Shadoura <bugzilla@tut.by>⏎\n"
+"⏎\n"
+"LIRC පිළිබඳ වැඩි විස්තර සඳහා,http://lirc.org බලන්න​."
 
 #: src/lirc/lirc.cc:390
 msgid "<b>Connection</b>"
@@ -2319,104 +2409,97 @@ msgstr "සේවාදායකයට ප්‍රතිසම්බන්ධ �
 msgid "Wait before reconnecting:"
 msgstr "ප්‍රතිසම්බන්ධ වීමට පෙර මදක් සිටින්න:"
 
-#: src/lyricwiki/lyricwiki.cc:42
-msgid "LyricWiki Plugin"
-msgstr "ලිරික් විකී  පේනු මෘදුකාංගය"
+#: src/lyricwiki-qt/lyricwiki.cc:89
+msgid "Lyrics"
+msgstr ""
 
-#: src/lyricwiki/lyricwiki.cc:132 src/lyricwiki-qt/lyricwiki.cc:481
-msgid "No lyrics available"
-msgstr "පද රචනා නොමැත​"
+#: src/lyricwiki-qt/lyricwiki.cc:116
+msgid "Nowhere"
+msgstr ""
 
-#: src/lyricwiki/lyricwiki.cc:251 src/lyricwiki/lyricwiki.cc:260
-#: src/lyricwiki/lyricwiki.cc:275 src/lyricwiki/lyricwiki.cc:284
-#: src/lyricwiki/lyricwiki.cc:299 src/lyricwiki-qt/lyricwiki.cc:658
-#: src/ui-common/dialogs-qt.cc:38
-msgid "Error"
-msgstr "දෝෂය "
+#: src/lyricwiki-qt/lyricwiki.cc:117
+msgid "lyrics.ovh"
+msgstr ""
 
-#: src/lyricwiki/lyricwiki.cc:252 src/lyricwiki/lyricwiki.cc:276
-#: src/lyricwiki-qt/lyricwiki.cc:362 src/lyricwiki-qt/lyricwiki.cc:393
-#: src/lyricwiki-qt/lyricwiki.cc:400 src/lyricwiki-qt/lyricwiki.cc:584
+#: src/lyricwiki-qt/lyricwiki.cc:121
+msgid "<small>Artist is truncated at the start, Title -- at the end</small>"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:122
+msgid "Chars to truncate on:"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:126
+msgid "<small>Chars are ORed in RegExp, surrounded by whitespace</small>"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:127
+msgid "Chars to split on:"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:128
+msgid "Further truncate those on chars"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:134
+msgid "<b>General</b>"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:135
+msgid "Split title into artist and title on chars"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:138
+msgid "<b>Internet Sources</b>"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:139
+msgid "Fetch lyrics from:"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:142
+msgid "Store fetched lyrics in local cache"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:144
+msgid "<b>Local Storage</b>"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:145
+msgid "Load lyric files (.lrc) from local storage"
+msgstr ""
+
+#: src/lyricwiki-qt/lyricwiki.cc:356
 #, c-format
 msgid "Unable to fetch %s"
 msgstr "කැඳවාගෙන යා නොහැක​ %s"
 
-#: src/lyricwiki/lyricwiki.cc:261 src/lyricwiki/lyricwiki.cc:285
-#: src/lyricwiki-qt/lyricwiki.cc:593
+#: src/lyricwiki-qt/lyricwiki.cc:365
 #, c-format
 msgid "Unable to parse %s"
 msgstr "parse කළ නොහැක​ %s"
 
-#: src/lyricwiki/lyricwiki.cc:291 src/lyricwiki-qt/lyricwiki.cc:408
-#: src/lyricwiki-qt/lyricwiki.cc:631
+#: src/lyricwiki-qt/lyricwiki.cc:403
 msgid "Looking for lyrics ..."
 msgstr "පද රචනා සොයමින් පවතී ..."
 
-#: src/lyricwiki/lyricwiki.cc:299
-msgid "Missing song metadata"
-msgstr "ගීතයේ metadata නොමැත​"
+#: src/lyricwiki-qt/lyricwiki.cc:427 src/ui-common/dialogs-qt.cc:38
+msgid "Error"
+msgstr "දෝෂය "
 
-#: src/lyricwiki/lyricwiki.cc:310
-msgid "Connecting to lyrics.fandom.com ..."
-msgstr ""
-
-#: src/lyricwiki/lyricwiki.cc:351
-msgid "Edit lyrics ..."
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:88
-msgid "Lyrics"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:111
-msgid "Nowhere"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:112
-msgid "LyricWiki"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:113
-msgid "lyrics.ovh"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:117
-msgid "<b>Internet Sources</b>"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:118
-msgid "Fetch lyrics from:"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:121
-msgid "Store fetched lyrics in local cache"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:123
-msgid "<b>Local Storage</b>"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:124
-msgid "Load lyric files (.lrc) from local storage"
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:664
+#: src/lyricwiki-qt/lyricwiki.cc:433
 msgid "Lyrics could not be found."
 msgstr ""
 
-#: src/lyricwiki-qt/lyricwiki.cc:701
+#: src/lyricwiki-qt/lyricwiki.cc:501
 msgid "Missing title and/or artist."
 msgstr ""
 
-#: src/lyricwiki-qt/lyricwiki.cc:751
-msgid "Edit Lyrics ..."
-msgstr ""
-
-#: src/lyricwiki-qt/lyricwiki.cc:759
+#: src/lyricwiki-qt/lyricwiki.cc:553
 msgid "Save Locally"
 msgstr ""
 
-#: src/lyricwiki-qt/lyricwiki.cc:767
+#: src/lyricwiki-qt/lyricwiki.cc:561
 msgid "Refresh"
 msgstr ""
 
@@ -2438,30 +2521,37 @@ msgstr "ටැක්ට් ජනකය: %d මිනිත්තුවට බ�
 msgid "Tact generator: %d bpm %d/%d"
 msgstr "ටැක්ට් ජනකය: %d මිනිත්තුවට බයිට්ස්  %d/%d"
 
-#: src/metronom/metronom.cc:234
+#: src/metronom/metronom.cc:235
 msgid ""
 "A Tact Generator by Martin Strauss <mys@faveve.uni-stuttgart.de>\n"
 "\n"
 "To use it, add a URL: tact://beats*num/den\n"
 "e.g. tact://77 to play 77 beats per minute\n"
 "or tact://60*3/4 to play 60 bpm in 3/4 tacts"
-msgstr "මාර්ටින් ස්ට්‍රේස් විසින් චාතුර්යය උත්පාදකක් <mys@faveve.uni-stuttgart.de>⏎\n⏎\nභාවිතා කිරීම සඳහා, add a URL: tact://beats*num/den⏎\ne.g. tact://77 to play 77 beats per minute⏎\nor tact://60*3/4 to play 60 bpm in 3/4 tacts"
+msgstr ""
+"මාර්ටින් ස්ට්‍රේස් විසින් චාතුර්යය උත්පාදකක් <mys@faveve.uni-stuttgart.de>⏎\n"
+"⏎\n"
+"භාවිතා කිරීම සඳහා, add a URL: tact://beats*num/den⏎\n"
+"e.g. tact://77 to play 77 beats per minute⏎\n"
+"or tact://60*3/4 to play 60 bpm in 3/4 tacts"
 
-#: src/mixer/mixer.cc:38
+#: src/mixer/mixer.cc:43
 msgid "Channel Mixer"
 msgstr "නාලිකා මිශ්‍රකය"
 
-#: src/mixer/mixer.cc:227
+#: src/mixer/mixer.cc:255
 msgid ""
 "Channel Mixer Plugin for Audacious\n"
 "Copyright 2011-2012 John Lindgren and Michał Lipski"
-msgstr "Audacious සඳහා නාලිකා මිශ්‍රන​ පේනු මෘදුකාංගයක්\nප්‍රකාශන අයිතිය​ 2011-2012 John Lindgren and Michał Lipski"
+msgstr ""
+"Audacious සඳහා නාලිකා මිශ්‍රන​ පේනු මෘදුකාංගයක්\n"
+"ප්‍රකාශන අයිතිය​ 2011-2012 John Lindgren and Michał Lipski"
 
-#: src/mixer/mixer.cc:231
+#: src/mixer/mixer.cc:259
 msgid "<b>Channel Mixer</b>"
 msgstr "<b>නාලිකා මිශ්‍රකය</b>"
 
-#: src/mixer/mixer.cc:232
+#: src/mixer/mixer.cc:260
 msgid "Output channels:"
 msgstr "ප්‍රතිදාන නාලිකා:"
 
@@ -2570,6 +2660,54 @@ msgstr "සදහටම නැවත නැවත කිරීමට, නැව�
 msgid "These settings will take effect when Audacious is restarted."
 msgstr ""
 
+#: src/moonstone/main_window.cc:72 src/moonstone/main_window.cc:73
+#: src/qtui/main_window.cc:159 src/qtui/main_window.cc:160
+#: src/skins/menus.cc:107 src/skins-qt/menus.cc:98
+msgid "Stop After This Song"
+msgstr ""
+
+#: src/moonstone/moonstone.cc:39
+msgid "Moonstone"
+msgstr ""
+
+#: src/moonstone/playlist_header.cc:210 src/qtui/playlist_header.cc:251
+msgid "Reset to Defaults"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:38 src/qtui/playlist_header.cc:225
+msgid "Now Playing"
+msgstr "දැන් ධාවනයවේ"
+
+#: src/moonstone/playlist_model.cc:38 src/qtui/playlist_model.cc:33
+msgid "Entry Number"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:40 src/qtui/playlist_model.cc:34
+msgid "Album Artist"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:41 src/qtui/playlist_model.cc:35
+msgid "Queue Position"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:41 src/qtui/playlist_model.cc:35
+msgid "File Path"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:42 src/qtui/playlist_model.cc:35
+msgid "File Name"
+msgstr ""
+
+#: src/moonstone/playlist_model.cc:42 src/qtui/playlist_model.cc:36
+msgid "Custom Title"
+msgstr ""
+
+#: src/moonstone/playlist_selection.cc:64
+#: src/playlist-manager/playlist-manager.cc:200
+#: src/playlist-manager-qt/playlist-manager-qt.cc:188
+msgid "Entries"
+msgstr "සටහන්"
+
 #: src/mpg123/mpg123.cc:54
 msgid "MPG123 Plugin"
 msgstr "MPG123  පේනු මෘදුකාංගය"
@@ -2582,7 +2720,7 @@ msgstr ""
 msgid "Use accurate length calculation (slow)"
 msgstr ""
 
-#: src/mpg123/mpg123.cc:255
+#: src/mpg123/mpg123.cc:256
 msgid "Surround"
 msgstr "සිසාළ "
 
@@ -2628,26 +2766,51 @@ msgid ""
 "Copyright (C) 2010 Maximilian Bogner\n"
 "Copyright (C) 2011-2013 John Lindgren and Jean-Alexandre Anglès d'Auriac\n"
 "\n"
-"This plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n"
+"This plugin is free software: you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version.\n"
 "\n"
-"This plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"This plugin is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Audacious සදහා වැඩතල දැනුම් දීම් පෙනු-මෘදුකාංගය\nකතු හිමිකම(c) 2010 Maximilian Bogner\nකතු හිමිකම(c) 2011-2013 Lindgren සහ Jean-Alexandre Anglès d'Auriac\n\nමෙම පෙනු-මෘදුකාංගය නොමිලේ මෘදුකාංගයකි: ඔබට එය නැවත බෙදාහැරීම සහ/හෝ එයට ෆ්‍රී සොෆ්ට්වෙයා ෆඋන්ඩේශන් මගින් ප්‍රකාශනය කල GNU පොදු  මහජන වරපත අනුවාද 3 හෝ (ඔබගේ තෝරාගැනීම පරිදී) ඕනෑම පසු අනුවාදයක් යටතේ වෙනස්කම් සිදු කල හැක. \n\nමෙම  පෙනු-මෘදුකාංගය බෙදා හරින්නේ එය ප්‍රයෝජනවත් වේ යැයි අපේක්ෂාවෙනි, නමුත් කිසිදු වගකීමකින් තොරවය; විකිණිය හැකි ව්‍යංග්‍ය වගකීම හා අවශ්‍යතාවට සරිලන ව්‍යංග වගකීම ද නොමැතිවය. වැඩි විස්තර සදහා GNU පොදු  මහජන වරපත බලන්න.\n\nඔබට මම මෘදුකාංගය සමග GNU පොදු  මහජන වරපතේ පිටපතක් ලැබී තිබිය යුතුය, එසේ නොමැති නම් <http://www.gnu.org/licenses/>. බලන්න."
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Audacious සදහා වැඩතල දැනුම් දීම් පෙනු-මෘදුකාංගය\n"
+"කතු හිමිකම(c) 2010 Maximilian Bogner\n"
+"කතු හිමිකම(c) 2011-2013 Lindgren සහ Jean-Alexandre Anglès d'Auriac\n"
+"\n"
+"මෙම පෙනු-මෘදුකාංගය නොමිලේ මෘදුකාංගයකි: ඔබට එය නැවත බෙදාහැරීම සහ/හෝ එයට ෆ්‍රී සොෆ්ට්වෙයා "
+"ෆඋන්ඩේශන් මගින් ප්‍රකාශනය කල GNU පොදු  මහජන වරපත අනුවාද 3 හෝ (ඔබගේ තෝරාගැනීම පරිදී) "
+"ඕනෑම පසු අනුවාදයක් යටතේ වෙනස්කම් සිදු කල හැක. \n"
+"\n"
+"මෙම  පෙනු-මෘදුකාංගය බෙදා හරින්නේ එය ප්‍රයෝජනවත් වේ යැයි අපේක්ෂාවෙනි, නමුත් කිසිදු වගකීමකින් "
+"තොරවය; විකිණිය හැකි ව්‍යංග්‍ය වගකීම හා අවශ්‍යතාවට සරිලන ව්‍යංග වගකීම ද නොමැතිවය. වැඩි විස්තර "
+"සදහා GNU පොදු  මහජන වරපත බලන්න.\n"
+"\n"
+"ඔබට මම මෘදුකාංගය සමග GNU පොදු  මහජන වරපතේ පිටපතක් ලැබී තිබිය යුතුය, එසේ නොමැති නම් "
+"<http://www.gnu.org/licenses/>. බලන්න."
 
-#: src/notify/notify.cc:102
+#: src/notify/notify.cc:104
 msgid "Show playback controls"
 msgstr "යළි ධාවන පාලන යතුරු පෙන්නන්න  "
 
-#: src/notify/notify.cc:104
+#: src/notify/notify.cc:106
 msgid "Always show notification"
 msgstr "නිතර නිවේදන පෙන්නන්න"
 
-#: src/notify/notify.cc:106
+#: src/notify/notify.cc:108
 msgid "Include album name in notification"
 msgstr ""
 
-#: src/notify/osd.cc:59
+#: src/notify/notify.cc:110
+msgid "Custom notification duration:"
+msgstr ""
+
+#: src/notify/osd.cc:74
 msgid "Show"
 msgstr "පෙන්නන්න "
 
@@ -2655,26 +2818,26 @@ msgstr "පෙන්නන්න "
 msgid "OpenMPT (Module Player)"
 msgstr ""
 
-#: src/openmpt/mpt.cc:134
+#: src/openmpt/mpt.cc:133
 msgid ""
 "Module player based on libopenmpt\n"
 "\n"
 "Written by: Chris Spiegel <cspiegel@gmail.com>"
 msgstr ""
 
-#: src/openmpt/mpt.cc:153
+#: src/openmpt/mpt.cc:152
 msgid "Stereo separation:"
 msgstr ""
 
-#: src/openmpt/mpt.cc:155
+#: src/openmpt/mpt.cc:154
 msgid "%"
 msgstr ""
 
-#: src/openmpt/mpt.cc:159
+#: src/openmpt/mpt.cc:158
 msgid "Interpolation:"
 msgstr ""
 
-#: src/openmpt/mptwrap.h:51 src/soxr/sox-resampler.cc:174
+#: src/openmpt/mptwrap.h:51 src/soxr/sox-resampler.cc:189
 msgid "Linear"
 msgstr ""
 
@@ -2723,26 +2886,27 @@ msgid ""
 "OSS4 Output Plugin for Audacious\n"
 "Copyright 2010-2012 Michał Lipski\n"
 "\n"
-"I would like to thank people on #audacious, especially Tony Vroon and John Lindgren and of course the authors of the previous OSS plugin."
-msgstr "Audacious සඳහා වන OSS4 ප්‍රතිදාන \nප්‍රකාශන අයිතිය​ 2010-2012 Michał Lipski\n\n#audacious හි මිනිසුන් වෙත ස්තූති කරමි, විශේෂයෙන් Tony Vroon සහ​ John Lindgren මෙන්ම පෙර OSS පේනු මෘදුකාංගයයෙහි කතෘන් හට ."
+"I would like to thank people on #audacious, especially Tony Vroon and John "
+"Lindgren and of course the authors of the previous OSS plugin."
+msgstr ""
+"Audacious සඳහා වන OSS4 ප්‍රතිදාන \n"
+"ප්‍රකාශන අයිතිය​ 2010-2012 Michał Lipski\n"
+"\n"
+"#audacious හි මිනිසුන් වෙත ස්තූති කරමි, විශේෂයෙන් Tony Vroon සහ​ John Lindgren මෙන්ම පෙර "
+"OSS පේනු මෘදුකාංගයයෙහි කතෘන් හට ."
 
 #: src/playlist-manager/playlist-manager.cc:37
 #: src/playlist-manager-qt/playlist-manager-qt.cc:40
 msgid "Playlist Manager"
 msgstr "\tධාවන ලැයිස්තු කළමනාකරු"
 
-#: src/playlist-manager/playlist-manager.cc:200
-#: src/playlist-manager-qt/playlist-manager-qt.cc:186
-msgid "Entries"
-msgstr "සටහන්"
-
 #: src/playlist-manager/playlist-manager.cc:220
-#: src/playlist-manager-qt/playlist-manager-qt.cc:340
+#: src/playlist-manager-qt/playlist-manager-qt.cc:354
 msgid "_Remove"
 msgstr ""
 
 #: src/playlist-manager/playlist-manager.cc:221
-#: src/playlist-manager-qt/playlist-manager-qt.cc:335
+#: src/playlist-manager-qt/playlist-manager-qt.cc:349
 msgid "Ren_ame"
 msgstr ""
 
@@ -2754,11 +2918,11 @@ msgstr "PLS ධාවන ලැයිස්තුව​"
 msgid "OpenPSF PSF1/PSF2 Decoder"
 msgstr "PSF PSF1/PSF2 විකේතකය විවෘත කරන්න "
 
-#: src/psf/plugin.cc:269
+#: src/psf/plugin.cc:270
 msgid "<b>OpenPSF Configuration</b>"
 msgstr ""
 
-#: src/psf/plugin.cc:270 src/xsf/plugin.cc:232
+#: src/psf/plugin.cc:271 src/xsf/plugin.cc:233
 msgid "Ignore length from file"
 msgstr ""
 
@@ -2778,11 +2942,19 @@ msgstr ""
 msgid ""
 "Audacious PulseAudio Output Plugin\n"
 "\n"
-"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 
 #: src/qtaudio/qtaudio.cc:44
@@ -2802,69 +2974,61 @@ msgstr ""
 msgid ""
 "OpenGL Spectrum Analyzer for Audacious\n"
 "Copyright 2013 Christophe Budé, John Lindgren, and Carlo Bramini\n"
-"Copyright 2014 William Pitcock\n"
+"Copyright 2014, 2020 Ariadne Conill\n"
 "\n"
 "Based on the XMMS plugin:\n"
-"Copyright 1998-2000 Peter Alm, Mikael Alm, Olle Hallnas, Thomas Nilsson, and 4Front Technologies\n"
+"Copyright 1998-2000 Peter Alm, Mikael Alm, Olle Hallnas, Thomas Nilsson, and "
+"4Front Technologies\n"
 "\n"
 "License: GPLv2+"
 msgstr ""
 
-#: src/qtui/main_window.cc:111 src/qtui/main_window.cc:112
-#: src/skins/menus.cc:107 src/skins-qt/menus.cc:98
-msgid "Stop After This Song"
+#: src/qthotkey/gui.cc:165
+msgid "Press a key combination inside a text field."
 msgstr ""
 
-#: src/qtui/menus.cc:105
+#: src/qthotkey/plugin.cc:103
+msgid ""
+"Global Hotkey Plugin\n"
+"Control the player with global key combinations or multimedia keys.\n"
+"\n"
+"Copyright (C) 2020 i.Dark_Templar <darktemplar@dark-templar-archives.net>\n"
+"Copyright (C) 2007-2008 Sascha Hlusiak <contact@saschahlusiak.de>\n"
+"\n"
+"Contributors include:\n"
+"Copyright (C) 2006-2007 Vladimir Paskov <vlado.paskov@gmail.com>\n"
+"Copyright (C) 2000-2002 Ville Syrjälä <syrjala@sci.fi>,\n"
+" Bryn Davies <curious@ihug.com.au>,\n"
+" Jonathan A. Davis <davis@jdhouse.org>,\n"
+" Jeremy Tan <nsx@nsx.homeip.net>"
+msgstr ""
+
+#: src/qtui/menus.cc:109
 msgid "_Open Folder ..."
 msgstr ""
 
-#: src/qtui/menus.cc:111
+#: src/qtui/menus.cc:115
 msgid "_Add Folder ..."
 msgstr ""
 
-#: src/qtui/menus.cc:123
+#: src/qtui/menus.cc:128
 msgid "_Log Inspector ..."
 msgstr ""
 
-#: src/qtui/menus.cc:206
+#: src/qtui/menus.cc:218
 msgid "_Find ..."
 msgstr ""
 
-#: src/qtui/menus.cc:242 src/skins/menus.cc:80 src/skins-qt/menus.cc:70
+#: src/qtui/menus.cc:254 src/skins/menus.cc:80 src/skins-qt/menus.cc:70
 msgid "Audio Settings ..."
 msgstr ""
 
-#: src/qtui/playlist_header.cc:214
-msgid "Reset to Defaults"
+#: src/qtui/playlist_model.cc:186
+msgid "Q#"
 msgstr ""
 
-#: src/qtui/playlist_model.cc:35
-msgid "Now Playing"
-msgstr "දැන් ධාවනයවේ"
-
-#: src/qtui/playlist_model.cc:35
-msgid "Entry Number"
-msgstr ""
-
-#: src/qtui/playlist_model.cc:37
-msgid "Album Artist"
-msgstr ""
-
-#: src/qtui/playlist_model.cc:38
-msgid "Queue Position"
-msgstr ""
-
-#: src/qtui/playlist_model.cc:38
-msgid "File Path"
-msgstr ""
-
-#: src/qtui/playlist_model.cc:39
-msgid "File Name"
-msgstr ""
-
-#: src/qtui/playlist_model.cc:39
-msgid "Custom Title"
+#: src/qtui/playlist_model.cc:188
+msgid "T#"
 msgstr ""
 
 #: src/qtui/qtui.cc:40
@@ -2875,20 +3039,24 @@ msgstr ""
 msgid "Search playlist"
 msgstr ""
 
-#: src/qtui/settings.cc:52
+#: src/qtui/settings.cc:58
 msgid "Always"
 msgstr ""
 
-#: src/qtui/settings.cc:53
+#: src/qtui/settings.cc:59
 msgid "Auto-hide"
 msgstr ""
 
-#: src/qtui/settings.cc:54
+#: src/qtui/settings.cc:60
 msgid "Never"
 msgstr ""
 
-#: src/qtui/settings.cc:58
+#: src/qtui/settings.cc:64
 msgid "Show playlist tabs:"
+msgstr ""
+
+#: src/qtui/settings.cc:78
+msgid "Use bold font for column headers"
 msgstr ""
 
 #: src/resample/resample.cc:43
@@ -2899,7 +3067,9 @@ msgstr "නියැදි අනුපාත පරිවර්තකය "
 msgid ""
 "Sample Rate Converter Plugin for Audacious\n"
 "Copyright 2010-2012 John Lindgren"
-msgstr "ඔඩෙෂස් සඳහා නියැදි අනුපාත පරිවර්තකය \nප්‍රකාශන හිමිකම 2010-2012 ජෝන් ලින්දඩ්ග්රෙන් "
+msgstr ""
+"ඔඩෙෂස් සඳහා නියැදි අනුපාත පරිවර්තකය \n"
+"ප්‍රකාශන හිමිකම 2010-2012 ජෝන් ලින්දඩ්ග්රෙන් "
 
 #: src/resample/resample.cc:187
 msgid "Skip/repeat samples"
@@ -2929,7 +3099,7 @@ msgstr "<b>පරිවර්තනය</b>"
 msgid "Method:"
 msgstr "ක්‍රමය "
 
-#: src/resample/resample.cc:199 src/soxr/sox-resampler.cc:188
+#: src/resample/resample.cc:199 src/soxr/sox-resampler.cc:203
 msgid "Rate:"
 msgstr "අනුපාතය:"
 
@@ -3015,35 +3185,42 @@ msgid "Revoke Permission"
 msgstr ""
 
 #: src/scrobbler2/config_window.cc:91
-msgid ""
-"You need to allow Audacious to scrobble tracks to your Last.fm account."
+msgid "You need to allow Audacious to scrobble tracks to your Last.fm account."
 msgstr ""
 
 #: src/scrobbler2/scrobbler.cc:29
 msgid "Scrobbler 2.0"
 msgstr "ස්ක්රෝබ්ලර් 2.0"
 
-#: src/scrobbler2/scrobbler.cc:224
+#: src/scrobbler2/scrobbler.cc:226
 msgid ""
 "The Scrobbler plugin could not be started.\n"
 "There might be a problem with your installation."
-msgstr "Scrobbler පේනු මෘදුකාංගය ඇරභිය නොහැකිය.⏎\nසමහරවිට ඔබගේ පිහිටැවුමෙහි ගැටලුවක් ඇත."
+msgstr ""
+"Scrobbler පේනු මෘදුකාංගය ඇරභිය නොහැකිය.⏎\n"
+"සමහරවිට ඔබගේ පිහිටැවුමෙහි ගැටලුවක් ඇත."
 
-#: src/scrobbler2/scrobbler.cc:289
+#: src/scrobbler2/scrobbler.cc:291
 msgid ""
 "Audacious Scrobbler Plugin 2.0 by Pitxyoki,\n"
 "\n"
 "Copyright © 2012-2013 Luís M. Picciochi Oliveira <Pitxyoki@Gmail.com>\n"
 "\n"
-"Thanks to John Lindgren for giving me a hand at the beginning of this project.\n"
+"Thanks to John Lindgren for giving me a hand at the beginning of this "
+"project.\n"
 "\n"
-msgstr "Pitxyoki විසින් Audacious Scrobbler පේනු මෘදුකාංගය,\n\nප්‍රකාශන අයිතිය © 2012-2013 Luís M. Picciochi Oliveira <Pitxyoki@Gmail.com>\n"
+msgstr ""
+"Pitxyoki විසින් Audacious Scrobbler පේනු මෘදුකාංගය,\n"
+"\n"
+"ප්‍රකාශන අයිතිය © 2012-2013 Luís M. Picciochi Oliveira <Pitxyoki@Gmail.com>\n"
 
-#: src/scrobbler2/scrobbler_communication.cc:639
+#: src/scrobbler2/scrobbler_communication.cc:663
 msgid ""
 "Audacious is now using an improved version of the Last.fm Scrobbler.\n"
 "Please check the Preferences for the Scrobbler plugin."
-msgstr "Audacious අවසානයට වැඩි දියුණුකළ අනුවාදය භාවිත කරයි.fm Scrobbler.⏎ \nකරුණාකර Scrobbler පේනු මෘදුකාංගයේ අභිරුචිය පරීක්ෂා කර බලන්න."
+msgstr ""
+"Audacious අවසානයට වැඩි දියුණුකළ අනුවාදය භාවිත කරයි.fm Scrobbler.⏎ \n"
+"කරුණාකර Scrobbler පේනු මෘදුකාංගයේ අභිරුචිය පරීක්ෂා කර බලන්න."
 
 #: src/sdlout/sdlout.cc:43
 msgid "SDL Output"
@@ -3053,7 +3230,9 @@ msgstr "SDL ප්‍රතිදානය"
 msgid ""
 "SDL Output Plugin for Audacious\n"
 "Copyright 2010 John Lindgren"
-msgstr "Audacious සඳහා වන SDL ප්‍රතිදාන​ පේනු මෘදුකාංගය\nප්‍රකාශන අයිතිය 2010 ජෝන් ලින්ඩ්ග්‍රෙන්"
+msgstr ""
+"Audacious සඳහා වන SDL ප්‍රතිදාන​ පේනු මෘදුකාංගය\n"
+"ප්‍රකාශන අයිතිය 2010 ජෝන් ලින්ඩ්ග්‍රෙන්"
 
 #: src/search-tool/library.cc:35 src/search-tool/library.cc:46
 #: src/search-tool-qt/library.cc:35 src/search-tool-qt/library.cc:46
@@ -3079,55 +3258,56 @@ msgstr ""
 msgid "by"
 msgstr ""
 
-#: src/search-tool-qt/search-tool-qt.cc:163 src/search-tool/search-tool.cc:73
+#: src/search-tool-qt/search-tool-qt.cc:165 src/search-tool/search-tool.cc:73
 msgid "Number of results to show:"
 msgstr ""
 
-#: src/search-tool-qt/search-tool-qt.cc:166 src/search-tool/search-tool.cc:76
+#: src/search-tool-qt/search-tool-qt.cc:168 src/search-tool/search-tool.cc:76
 msgid "Rescan library at startup"
 msgstr ""
 
-#: src/search-tool-qt/search-tool-qt.cc:168
+#: src/search-tool-qt/search-tool-qt.cc:170
 msgid "Monitor library for changes"
 msgstr ""
 
-#: src/search-tool-qt/search-tool-qt.cc:191 src/search-tool/search-tool.cc:446
+#: src/search-tool-qt/search-tool-qt.cc:193 src/search-tool/search-tool.cc:446
 msgid ""
 "To import your music library into Audacious, choose a folder and then click "
 "the \"refresh\" icon."
-msgstr "ඔඩෙෂස් තුලට ඔබගේ ගීත පුස්තකාලය ආයාත කිරීමට, ෆෝල්ඩරයක් තෝරා \"නැවුම් කරන්න\" නිරූපකය ඔබන්න."
+msgstr ""
+"ඔඩෙෂස් තුලට ඔබගේ ගීත පුස්තකාලය ආයාත කිරීමට, ෆෝල්ඩරයක් තෝරා \"නැවුම් කරන්න\" නිරූපකය ඔබන්න."
 
-#: src/search-tool-qt/search-tool-qt.cc:193 src/search-tool/search-tool.cc:455
+#: src/search-tool-qt/search-tool-qt.cc:195 src/search-tool/search-tool.cc:455
 msgid "Please wait ..."
 msgstr "කරුණාකර රැඳී සිටින්න ..."
 
-#: src/search-tool-qt/search-tool-qt.cc:195 src/search-tool/search-tool.cc:483
+#: src/search-tool-qt/search-tool-qt.cc:197 src/search-tool/search-tool.cc:483
 msgid "Choose Folder"
 msgstr "ෆෝල්ඩරය තෝරන්න "
 
-#: src/search-tool-qt/search-tool-qt.cc:199
+#: src/search-tool-qt/search-tool-qt.cc:201
 msgid "Search library"
 msgstr "පුස්තකාලය සොයන්න "
 
-#: src/search-tool-qt/search-tool-qt.cc:325 src/search-tool/search-tool.cc:155
+#: src/search-tool-qt/search-tool-qt.cc:327 src/search-tool/search-tool.cc:155
 #, c-format
 msgid "%d of %d result shown"
 msgid_plural "%d of %d results shown"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/search-tool-qt/search-tool-qt.cc:329 src/search-tool/search-tool.cc:159
+#: src/search-tool-qt/search-tool-qt.cc:331 src/search-tool/search-tool.cc:159
 #, c-format
 msgid "%d result"
 msgid_plural "%d results"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/search-tool-qt/search-tool-qt.cc:500 src/search-tool/search-tool.cc:345
+#: src/search-tool-qt/search-tool-qt.cc:501 src/search-tool/search-tool.cc:345
 msgid "_Create Playlist"
 msgstr "_ධාවන ලැයිස්තුව​ තනන්න "
 
-#: src/search-tool-qt/search-tool-qt.cc:502 src/search-tool/search-tool.cc:347
+#: src/search-tool-qt/search-tool-qt.cc:503 src/search-tool/search-tool.cc:347
 msgid "_Add to Playlist"
 msgstr "_ධාවන ලැයිස්තුව​ට එකතු කරන්න "
 
@@ -3229,51 +3409,51 @@ msgstr "පුනරාවර්ථන ස්ථානය A කුලකය."
 msgid "Repeat point B set."
 msgstr "පුනරාවර්ථන ස්ථානය B කුලකය."
 
-#: src/skins/equalizer.cc:224 src/skins-qt/equalizer.cc:220
+#: src/skins/equalizer.cc:224 src/skins-qt/equalizer.cc:221
 msgid "Preamp"
 msgstr "පූර්ව වර්ධකය"
 
-#: src/skins/equalizer.cc:228 src/skins-qt/equalizer.cc:224
+#: src/skins/equalizer.cc:228 src/skins-qt/equalizer.cc:225
 msgid "31 Hz"
 msgstr "31 හරට්ස් "
 
-#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:225
+#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:226
 msgid "63 Hz"
 msgstr "63  හරට්ස් "
 
-#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:225
+#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:226
 msgid "125 Hz"
 msgstr "125  හරට්ස් "
 
-#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:225
+#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:226
 msgid "250 Hz"
 msgstr "250  හරට්ස් "
 
-#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:225
+#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:226
 msgid "500 Hz"
 msgstr "500  හරට්ස් "
 
-#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:225
+#: src/skins/equalizer.cc:229 src/skins-qt/equalizer.cc:226
 msgid "1 kHz"
 msgstr "1  හරට්ස් "
 
-#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:226
+#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:227
 msgid "2 kHz"
 msgstr "2  හරට්ස් "
 
-#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:226
+#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:227
 msgid "4 kHz"
 msgstr "4  හරට්ස් "
 
-#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:226
+#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:227
 msgid "8 kHz"
 msgstr "8  හරට්ස් "
 
-#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:226
+#: src/skins/equalizer.cc:230 src/skins-qt/equalizer.cc:227
 msgid "16 kHz"
 msgstr "16  හරට්ස් "
 
-#: src/skins/equalizer.cc:271 src/skins-qt/equalizer.cc:267
+#: src/skins/equalizer.cc:271 src/skins-qt/equalizer.cc:268
 msgid "Audacious Equalizer"
 msgstr "ඔඩෙෂස් ඉකුවලිසරය "
 
@@ -3309,28 +3489,28 @@ msgstr "තුලනය: මැදට "
 msgid "Balance: %d%% right"
 msgstr "තුලනය: %d%% දකුණට "
 
-#: src/skins/main.cc:876 src/skins-qt/main.cc:817
+#: src/skins/main.cc:875 src/skins-qt/main.cc:816
 msgid "Options Menu"
 msgstr "විකල්ප මෙනුව "
 
-#: src/skins/main.cc:880 src/skins-qt/main.cc:821
+#: src/skins/main.cc:879 src/skins-qt/main.cc:820
 msgid "Disable 'Always On Top'"
 msgstr "අක්‍රිය කරන්න 'සැමවිටම  ඉහළ '"
 
-#: src/skins/main.cc:882 src/skins-qt/main.cc:823
+#: src/skins/main.cc:881 src/skins-qt/main.cc:822
 msgid "Enable 'Always On Top'"
 msgstr "සක්‍රිය කරන්න 'සැමවිටම  ඉහළ '"
 
-#: src/skins/main.cc:885 src/skins-qt/main.cc:826
+#: src/skins/main.cc:884 src/skins-qt/main.cc:825
 msgid "File Info Box"
 msgstr "ගොනු තොරතුරු පෙට්ටිය "
 
-#: src/skins/main.cc:888 src/skins/menus.cc:149 src/skins-qt/main.cc:829
+#: src/skins/main.cc:887 src/skins/menus.cc:149 src/skins-qt/main.cc:828
 #: src/skins-qt/menus.cc:142
 msgid "Double Size"
 msgstr ""
 
-#: src/skins/main.cc:891 src/skins-qt/main.cc:832
+#: src/skins/main.cc:890 src/skins-qt/main.cc:831
 msgid "Visualizations"
 msgstr ""
 
@@ -3473,7 +3653,7 @@ msgstr " ඉකුවලිසරය  පෙන්වන්න "
 msgid "Show Remaining Time"
 msgstr ""
 
-#: src/skins/menus.cc:150 src/skins-qt/menus.cc:144
+#: src/skins/menus.cc:150 src/skins-qt/menus.cc:143
 msgid "Always on Top"
 msgstr "සැමවිටම  ඉහළ"
 
@@ -3644,7 +3824,7 @@ msgstr ""
 msgid "Queue/Unqueue"
 msgstr ""
 
-#: src/skins/playlist-widget.cc:55 src/skins-qt/playlist-widget.cc:53
+#: src/skins/playlist-widget.cc:55 src/skins-qt/playlist-widget.cc:56
 #, c-format
 msgid "%s (%d of %d)"
 msgstr "%s (%d ගෙන්  %d)"
@@ -3653,7 +3833,7 @@ msgstr "%s (%d ගෙන්  %d)"
 msgid "Audacious Playlist Editor"
 msgstr "ඔඩෙෂස් ධාවන ලැස්තු සකසනය "
 
-#: src/skins/plugin.cc:49 src/skins-qt/plugin.cc:51
+#: src/skins/plugin.cc:49 src/skins-qt/plugin.cc:64
 msgid "Winamp Classic Interface"
 msgstr "Winamp සම්භාව්‍ය අතුරු මුහුණත"
 
@@ -3749,7 +3929,7 @@ msgid "Slow"
 msgstr "මන්දගාමි"
 
 #: src/skins-qt/skins_cfg.cc:240 src/skins/skins_cfg.cc:222
-#: src/soxr/sox-resampler.cc:165
+#: src/soxr/sox-resampler.cc:180
 msgid "Medium"
 msgstr "මධ්‍යම "
 
@@ -3847,11 +4027,14 @@ msgstr ""
 
 #: src/skins/search-select.cc:81
 msgid ""
-"Select entries in playlist by filling one or more fields. Fields use regular"
-" expressions syntax, case-insensitive. If you don't know how regular "
+"Select entries in playlist by filling one or more fields. Fields use regular "
+"expressions syntax, case-insensitive. If you don't know how regular "
 "expressions work, simply insert a literal portion of what you're searching "
 "for."
-msgstr "ධාවන ලැයිස්තුවේ  පිවිසුම්, ක්ෂේත්‍ර එකක් හෝ වැඩි ගණනක් ගොනු කිරිමනේ තෝරන්න. ක්ෂේත්‍ර විධිමත් ප්‍රකාශන වාග් රීති, අකුරු තටු-සංවේදී නැති භාවිතා කරයි. ඔබට  විධිමත් ප්‍රකාශන වාග් රීති ක්‍රියාත්මක වන ආකාරය පිළිබඳ අවබෝධයක් නැති නම්, ඔබ සොයන වචන කොටස ඇතුල් කරන්න."
+msgstr ""
+"ධාවන ලැයිස්තුවේ  පිවිසුම්, ක්ෂේත්‍ර එකක් හෝ වැඩි ගණනක් ගොනු කිරිමනේ තෝරන්න. ක්ෂේත්‍ර විධිමත් ප්‍රකාශන "
+"වාග් රීති, අකුරු තටු-සංවේදී නැති භාවිතා කරයි. ඔබට  විධිමත් ප්‍රකාශන වාග් රීති ක්‍රියාත්මක වන ආකාරය "
+"පිළිබඳ අවබෝධයක් නැති නම්, ඔබ සොයන වචන කොටස ඇතුල් කරන්න."
 
 #: src/skins/search-select.cc:89
 msgid "Title:"
@@ -3892,12 +4075,37 @@ msgid ""
 "\n"
 "Adapted for Audacious by Tony Vroon <chainsaw@gentoo.org>\n"
 "\n"
-"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
 "\n"
-"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr "xmms_sndfile පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\nප්‍රකාශන අයිතිය (C) 2000, 2002 Erik de Castro Lopo\n\nAudacious සඳහා ඇතුලත් කරන ලද්දේ Tony Vroon <chainsaw@gentoo.org>\n\nමෙම​ මෘදුකාංගය නිදහස් මෘදුකාංගයකි; නිදහස් මෘදුකාංග පදනම විසින් ප්‍රකාශ කරන ලද GNU සාමාන්‍ය පොදු බලපත්‍රය යටතේ ඔබට මෙය නැවත බෙදා හැරීම හෝ වෙනස් කිරීම කළ හැක​; බලපත්‍රයේ 2වන සංස්කරණය හෝ(ඔබගේ කැමත්ත අනුව​) පසු සංස්කරණයක් යටතේ.\n\nමෙම මෘදුකාංගය බෙදාහැර ඇත්තේ ප්‍රයෝජනවත් වේ යන බලාපොරොත්තුවෙන් වුවත් වගකීමක් නොමැත​; විකිණිය හැකි හෝ යම් නිශ්චිත අරමුණකට ලෙසවත් ගම්‍යමාන වන වගකීමකින් තොරයි. වැඩි විස්තර සඳහා GNU සාමාන්‍ය පොදු බලපත්‍රය බලන්න​. \n\nමෙම මෘදුකාංගය සමග ඔබට GNU සාමාන්‍ය පොදු බලපත්‍රයහි පිටපතක් ලැබිය යුතුයි; නැතිනම් නිදහස් මෘදුකාංග පදනමට දන්වන්න​. Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,\nUSA."
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"xmms_sndfile පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\n"
+"ප්‍රකාශන අයිතිය (C) 2000, 2002 Erik de Castro Lopo\n"
+"\n"
+"Audacious සඳහා ඇතුලත් කරන ලද්දේ Tony Vroon <chainsaw@gentoo.org>\n"
+"\n"
+"මෙම​ මෘදුකාංගය නිදහස් මෘදුකාංගයකි; නිදහස් මෘදුකාංග පදනම විසින් ප්‍රකාශ කරන ලද GNU සාමාන්‍ය "
+"පොදු බලපත්‍රය යටතේ ඔබට මෙය නැවත බෙදා හැරීම හෝ වෙනස් කිරීම කළ හැක​; බලපත්‍රයේ 2වන "
+"සංස්කරණය හෝ(ඔබගේ කැමත්ත අනුව​) පසු සංස්කරණයක් යටතේ.\n"
+"\n"
+"මෙම මෘදුකාංගය බෙදාහැර ඇත්තේ ප්‍රයෝජනවත් වේ යන බලාපොරොත්තුවෙන් වුවත් වගකීමක් නොමැත​; විකිණිය "
+"හැකි හෝ යම් නිශ්චිත අරමුණකට ලෙසවත් ගම්‍යමාන වන වගකීමකින් තොරයි. වැඩි විස්තර සඳහා GNU සාමාන්‍ය "
+"පොදු බලපත්‍රය බලන්න​. \n"
+"\n"
+"මෙම මෘදුකාංගය සමග ඔබට GNU සාමාන්‍ය පොදු බලපත්‍රයහි පිටපතක් ලැබිය යුතුයි; නැතිනම් නිදහස් "
+"මෘදුකාංග පදනමට දන්වන්න​. Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,\n"
+"USA."
 
 #: src/sndio/sndio.cc:43
 msgid "Sndio Output"
@@ -3979,7 +4187,7 @@ msgid ""
 "Unquoted parameters may lead to unexpected results."
 msgstr ""
 
-#: src/song-info-qt/song-info.cc:33
+#: src/song-info-qt/song-info.cc:30
 msgid "Song Info"
 msgstr "ගීත තොරතුරු "
 
@@ -3987,56 +4195,61 @@ msgstr "ගීත තොරතුරු "
 msgid "SoX Resampler"
 msgstr "Sox නැවත සාම්පල කිරීම "
 
-#: src/soxr/sox-resampler.cc:157
+#: src/soxr/sox-resampler.cc:172
 msgid ""
 "SoX Resampler Plugin for Audacious\n"
 "Copyright 2013 Michał Lipski\n"
 "\n"
 "Based on Sample Rate Converter Plugin:\n"
 "Copyright 2010-2012 John Lindgren"
-msgstr "Audacious සඳහා වන SoX Resampler ​පේනු මෘදුකාංගය\nප්‍රකාශන අයිතිය 2013 Michał Lipski\n\nනියැදි අනුපාත පරිවර්තන පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\nප්‍රකාශන අයිතිය 2010-2012 John Lindgren"
+msgstr ""
+"Audacious සඳහා වන SoX Resampler ​පේනු මෘදුකාංගය\n"
+"ප්‍රකාශන අයිතිය 2013 Michał Lipski\n"
+"\n"
+"නියැදි අනුපාත පරිවර්තන පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\n"
+"ප්‍රකාශන අයිතිය 2010-2012 John Lindgren"
 
-#: src/soxr/sox-resampler.cc:163
+#: src/soxr/sox-resampler.cc:178
 msgid "Quick"
 msgstr "කඩිනම්"
 
-#: src/soxr/sox-resampler.cc:164
+#: src/soxr/sox-resampler.cc:179
 msgid "Low"
 msgstr "පහළ"
 
-#: src/soxr/sox-resampler.cc:166
+#: src/soxr/sox-resampler.cc:181
 msgid "High"
 msgstr "ඉහළ"
 
-#: src/soxr/sox-resampler.cc:167
+#: src/soxr/sox-resampler.cc:182
 msgid "Very High"
 msgstr "අති- උච්ච"
 
-#: src/soxr/sox-resampler.cc:168
+#: src/soxr/sox-resampler.cc:183
 msgid "Ultra High"
 msgstr ""
 
-#: src/soxr/sox-resampler.cc:172
+#: src/soxr/sox-resampler.cc:187
 msgid "Minimum"
 msgstr ""
 
-#: src/soxr/sox-resampler.cc:173
+#: src/soxr/sox-resampler.cc:188
 msgid "Intermediate"
 msgstr ""
 
-#: src/soxr/sox-resampler.cc:178
+#: src/soxr/sox-resampler.cc:193
 msgid "Quality:"
 msgstr "ප්‍රශස්තතාව:"
 
-#: src/soxr/sox-resampler.cc:181
+#: src/soxr/sox-resampler.cc:196
 msgid "Phase:"
 msgstr ""
 
-#: src/soxr/sox-resampler.cc:185
+#: src/soxr/sox-resampler.cc:200
 msgid "Allow aliasing"
 msgstr ""
 
-#: src/soxr/sox-resampler.cc:187
+#: src/soxr/sox-resampler.cc:202
 msgid "Use steep filter"
 msgstr ""
 
@@ -4117,7 +4330,14 @@ msgid ""
 "\n"
 "This plugin provides a status icon, placed in\n"
 "the system tray area of the window manager."
-msgstr "තත්ත්ව සුරුවම් පේනු මෘදුකාංගයක්\n\nප්‍රකාශන අයිතිය 2005-2007 Giacomo Lozito <james@develia.org>\nප්‍රකාශන අයිතිය 2010 Michał Lipski <tallica@o2.pl>\n\nමෙම පේනු මෘදුකාංගය තත්ත්ව සුරුවමක් සපයනු ලබයි,  කවුළු කළමනාකාරකයෙහි පද්ධති ට්‍රේ කොටසේ රඳවා තැබෙන ලෙස."
+msgstr ""
+"තත්ත්ව සුරුවම් පේනු මෘදුකාංගයක්\n"
+"\n"
+"ප්‍රකාශන අයිතිය 2005-2007 Giacomo Lozito <james@develia.org>\n"
+"ප්‍රකාශන අයිතිය 2010 Michał Lipski <tallica@o2.pl>\n"
+"\n"
+"මෙම පේනු මෘදුකාංගය තත්ත්ව සුරුවමක් සපයනු ලබයි,  කවුළු කළමනාකාරකයෙහි පද්ධති ට්‍රේ කොටසේ රඳවා "
+"තැබෙන ලෙස."
 
 #: src/stereo_plugin/stereo.cc:19
 msgid "Extra Stereo"
@@ -4128,7 +4348,10 @@ msgid ""
 "Extra Stereo Plugin\n"
 "\n"
 "By Johan Levin, 1999"
-msgstr "Extra Stereo පේනු මෘදුකාංගය\n\nJohan Levin විසින්, 1999"
+msgstr ""
+"Extra Stereo පේනු මෘදුකාංගය\n"
+"\n"
+"Johan Levin විසින්, 1999"
 
 #: src/stereo_plugin/stereo.cc:44
 msgid "<b>Extra Stereo</b>"
@@ -4287,14 +4510,19 @@ msgstr "%s %.1f හර්ට්ස් "
 msgid "Tone Generator: "
 msgstr "ස්වර ජනකය:"
 
-#: src/tonegen/tonegen.cc:160
+#: src/tonegen/tonegen.cc:161
 msgid ""
 "Sine tone generator by Håvard Kvålen <havardk@xmms.org>\n"
 "Modified by Daniel J. Peng <danielpeng@bigfoot.com>\n"
 "\n"
 "To use it, add a URL: tone://frequency1;frequency2;frequency3;...\n"
 "e.g. tone://2000;2005 to play a 2000 Hz tone and a 2005 Hz tone"
-msgstr "Sine tone ජනකය​ Håvard Kvålen විසින් <havardk@xmms.org>\nවෙනස් කරන ලද්දේ Daniel J. Peng විසින් <danielpeng@bigfoot.com>\n\nභාවිතා කිරීම සඳහා, add a URL: tone://frequency1;frequency2;frequency3;...\ne.g. tone://2000;2005 to play a 2000 Hz tone and a 2005 Hz tone"
+msgstr ""
+"Sine tone ජනකය​ Håvard Kvålen විසින් <havardk@xmms.org>\n"
+"වෙනස් කරන ලද්දේ Daniel J. Peng විසින් <danielpeng@bigfoot.com>\n"
+"\n"
+"භාවිතා කිරීම සඳහා, add a URL: tone://frequency1;frequency2;frequency3;...\n"
+"e.g. tone://2000;2005 to play a 2000 Hz tone and a 2005 Hz tone"
 
 #: src/ui-common/dialogs-qt.cc:31
 msgid "Working ..."
@@ -4327,7 +4555,24 @@ msgid ""
 "Håvard Kvålen <havardk@xmms.org>\n"
 "Gian-Carlo Pascutto <gcp@sjeng.org>\n"
 "Eugene Zagidullin <e.asphyx@gmail.com>"
-msgstr "Audacious Ogg Vorbis විකේතකය​\n\nXiph.org Foundation's Ogg Vorbis පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\nhttp://www.xiph.org/\n\nමූලික කේතය කරනු ලැබුවේ:\nTony Arcieri <bascule@inferno.tusculum.edu>\n\nදායකත්වය​:\nChris Montgomery <monty@xiph.org>\nPeter Alm <peter@xmms.org>\nMichael Smith <msmith@labyrinth.edu.au>\nJack Moffitt <jack@icecast.org>\nJorn Baayen <jorn@nl.linux.org>\nHåvard Kvålen <havardk@xmms.org>\nGian-Carlo Pascutto <gcp@sjeng.org>\nEugene Zagidullin <e.asphyx@gmail.com>"
+msgstr ""
+"Audacious Ogg Vorbis විකේතකය​\n"
+"\n"
+"Xiph.org Foundation's Ogg Vorbis පේනු මෘදුකාංගය මත පදනම් වී ඇත​:\n"
+"http://www.xiph.org/\n"
+"\n"
+"මූලික කේතය කරනු ලැබුවේ:\n"
+"Tony Arcieri <bascule@inferno.tusculum.edu>\n"
+"\n"
+"දායකත්වය​:\n"
+"Chris Montgomery <monty@xiph.org>\n"
+"Peter Alm <peter@xmms.org>\n"
+"Michael Smith <msmith@labyrinth.edu.au>\n"
+"Jack Moffitt <jack@icecast.org>\n"
+"Jorn Baayen <jorn@nl.linux.org>\n"
+"Håvard Kvålen <havardk@xmms.org>\n"
+"Gian-Carlo Pascutto <gcp@sjeng.org>\n"
+"Eugene Zagidullin <e.asphyx@gmail.com>"
 
 #: src/vorbis/vorbis.h:18
 msgid "Ogg Vorbis Decoder"
@@ -4357,12 +4602,15 @@ msgstr ""
 msgid "VTX Decoder"
 msgstr "VTX විකේතකය"
 
-#: src/vtx/vtx.cc:176
+#: src/vtx/vtx.cc:178
 msgid ""
 "Vortex file format player by Sashnov Alexander <sashnov@ngs.ru>\n"
 "Based on in_vtx.dll by Roman Sherbakov <v_soft@microfor.ru>\n"
 "Audacious plugin by Pavel Vymetalek <pvymetalek@seznam.cz>"
-msgstr "Vortex ගොනු හැඩතල ධාවකය​ Sashnov Alexander විසින්<sashnov@ngs.ru>\nBased on in_vtx.dll Roman Sherbakov විසින් <v_soft@microfor.ru>\nAudacious පේනු මෘදුකාංගය Pavel Vymetalek විසින් <pvymetalek@seznam.cz>"
+msgstr ""
+"Vortex ගොනු හැඩතල ධාවකය​ Sashnov Alexander විසින්<sashnov@ngs.ru>\n"
+"Based on in_vtx.dll Roman Sherbakov විසින් <v_soft@microfor.ru>\n"
+"Audacious පේනු මෘදුකාංගය Pavel Vymetalek විසින් <pvymetalek@seznam.cz>"
 
 #: src/vumeter-qt/vumeter_qt.cc:31
 msgid ""
@@ -4416,18 +4664,20 @@ msgstr "හානිමත් (දෙමුහුන්)"
 msgid "lossy"
 msgstr "හානිමත් "
 
-#: src/wavpack/wavpack.cc:257
+#: src/wavpack/wavpack.cc:259
 msgid ""
 "Copyright 2006 William Pitcock <nenolod@nenolod.net>\n"
 "\n"
 "Some of the plugin code was by Miles Egan."
-msgstr "ප්‍රකාශන හිමිකම 2006 William Pitcock <nenolod@nenolod.net>\nඇතැම් පේනු  මෘදුකාංග කේත Miles Egan විසිනි."
+msgstr ""
+"ප්‍රකාශන හිමිකම 2006 William Pitcock <nenolod@nenolod.net>\n"
+"ඇතැම් පේනු  මෘදුකාංග කේත Miles Egan විසිනි."
 
 #: src/xsf/plugin.cc:50
 msgid "2SF Decoder"
 msgstr " 2SF විකේතකය"
 
-#: src/xsf/plugin.cc:231
+#: src/xsf/plugin.cc:232
 msgid "<b>XSF Configuration</b>"
 msgstr ""
 

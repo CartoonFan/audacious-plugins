@@ -5,8 +5,8 @@ dnl ***
 dnl Initialize
 dnl ==========
 AC_PREREQ([2.59])
-AC_INIT([audacious-plugins], [4.0-beta1])
-AC_COPYRIGHT([Copyright (C) 2001-2019 Audacious developers and others])
+AC_INIT([audacious-plugins], [4.1])
+AC_COPYRIGHT([Copyright (C) 2001-2021 Audacious developers and others])
 
 AC_DEFINE_UNQUOTED([PACKAGE], "$PACKAGE_NAME", [Name of package])
 AC_DEFINE_UNQUOTED([VERSION], "$PACKAGE_VERSION", [Version number of package])
@@ -23,6 +23,7 @@ BUILDSYS_SHARED_LIB
 dnl gettext
 dnl =======
 AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION(0.18.1)
 if test "$MSGFMT" = ":" ; then
     AC_MSG_ERROR([msgfmt was not found; have you installed gettext?])
 fi
@@ -32,9 +33,9 @@ LIBS="$LIBS $LIBINTL"
 dnl Check for Audacious
 dnl ===================
 
-PKG_CHECK_MODULES(AUDACIOUS, [audacious >= 4.0],
+PKG_CHECK_MODULES(AUDACIOUS, [audacious >= 4.1],
     [],
-    [AC_MSG_ERROR([Cannot find Audacious 4.0; have you installed Audacious yet?])]
+    [AC_MSG_ERROR([Cannot find Audacious 4.1; have you installed Audacious yet?])]
 )
 
 CPPFLAGS="$CPPFLAGS $AUDACIOUS_CFLAGS"
@@ -459,7 +460,9 @@ ENABLE_PLUGIN_WITH_DEP(scrobbler2,
     libcurl >= 7.9.7)
 
 test_glspectrum () {
-    if test $HAVE_MSWINDOWS = yes ; then
+    if test $HAVE_DARWIN = yes ; then
+        have_glspectrum=no
+    elif test $HAVE_MSWINDOWS = yes ; then
         have_glspectrum=yes
         GL_LIBS="-lopengl32"
     else

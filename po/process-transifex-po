@@ -118,6 +118,12 @@ si.po)
 sk.po)
     LANGUAGE="Slovak"
     ;;
+sl.po)
+    LANGUAGE="Slovenian"
+    ;;
+sq.po)
+    LANGUAGE="Albanian"
+    ;;
 sr.po)
     LANGUAGE="Serbian"
     ;;
