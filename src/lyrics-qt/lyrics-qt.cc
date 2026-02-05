@@ -109,8 +109,8 @@ bool try_parse_json (const Index<char> & buf, const char * key, String & output)
         QString str = obj[key].toString ();
         if (! str.isNull ())
         {
-            QByteArray raw_data = str.toLocal8Bit ();
-            output = String (raw_data.data ());
+            QByteArray raw_data = str.toUtf8 ();
+            output = String (raw_data.constData ());
         }
     }
 
