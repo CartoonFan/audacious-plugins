@@ -195,10 +195,24 @@ bool handle_keyevent(EVENT event)
         return true;
     }
 
+    /* prev album */
+    if (event == EVENT_PREV_ALBUM)
+    {
+        aud_drct_pl_prev_album();
+        return true;
+    }
+
     /* next track */
     if (event == EVENT_NEXT_TRACK)
     {
         aud_drct_pl_next();
+        return true;
+    }
+
+    /* next album */
+    if (event == EVENT_NEXT_ALBUM)
+    {
+        aud_drct_pl_next_album();
         return true;
     }
 
@@ -334,6 +348,7 @@ void load_config()
     if (max == 0)
         load_defaults();
     else
+    {
         for (i = 0; i < max; i++)
         {
             char * text = nullptr;
@@ -364,6 +379,7 @@ void load_config()
             hotkey->event = (EVENT)aud_get_int("globalHotkey", text);
             g_free(text);
         }
+    }
 }
 
 /* save plugin configuration */

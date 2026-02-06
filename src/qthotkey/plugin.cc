@@ -211,10 +211,26 @@ bool handle_keyevent(Event event)
     }
     break;
 
+    /* prev album */
+    case Event::PrevAlbum:
+    {
+        aud_drct_pl_prev_album();
+        return true;
+    }
+    break;
+
     /* next track */
     case Event::NextTrack:
     {
         aud_drct_pl_next();
+        return true;
+    }
+    break;
+
+    /* next album */
+    case Event::NextAlbum:
+    {
+        aud_drct_pl_next_album();
         return true;
     }
     break;

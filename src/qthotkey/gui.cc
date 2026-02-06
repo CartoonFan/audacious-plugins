@@ -80,6 +80,8 @@ static const QMap<Event, const char *> event_desc = {
     {Event::ToggleShuffle, N_("Toggle shuffle")},
     {Event::ToggleStop, N_("Toggle stop after current")},
     {Event::Raise, N_("Raise player window(s)")},
+    {Event::PrevAlbum, N_("Previous album")},
+    {Event::NextAlbum, N_("Next album")},
 };
 
 class LineKeyEdit : public QLineEdit

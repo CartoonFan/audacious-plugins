@@ -84,7 +84,9 @@ static const char * event_desc[] = {N_("Previous track"),
                                     N_("Toggle repeat"),
                                     N_("Toggle shuffle"),
                                     N_("Toggle stop after current"),
-                                    N_("Raise player window(s)")};
+                                    N_("Raise player window(s)"),
+                                    N_("Previous album"),
+                                    N_("Next album")};
 
 static_assert(aud::n_elems(event_desc) == EVENT_MAX,
               "event_desc table is not up to date");
@@ -141,8 +143,7 @@ static void set_keytext(GtkWidget * entry, int key, int mask, int type)
 
     gtk_entry_set_text(GTK_ENTRY(entry), text);
     gtk_editable_set_position(GTK_EDITABLE(entry), -1);
-    if (text)
-        g_free(text);
+    g_free(text);
 }
 
 static gboolean on_entry_key_press_event(GtkWidget * widget,

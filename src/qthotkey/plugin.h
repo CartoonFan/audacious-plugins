@@ -7,8 +7,9 @@ namespace GlobalHotkeys
 {
 
 /*
- * Values in this enum must not be skipped and must start with 0,
- * otherwise event_desc in gui.cc and it's use must be updated.
+ * Values in this enum must not be changed and must start with 0.
+ * New events must always be added at the end (but before Event::Max).
+ * The int values are used in the configuration and shared with the GTK plugin.
  * All values except for Event::Max must be present in event_desc map.
  */
 enum class Event
@@ -33,6 +34,9 @@ enum class Event
     ToggleStop,
 
     Raise,
+
+    PrevAlbum,
+    NextAlbum,
 
     Max
 };
