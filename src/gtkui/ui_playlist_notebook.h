@@ -37,6 +37,7 @@ GtkWidget * pl_notebook_new ();
 void pl_notebook_grab_focus ();
 void pl_notebook_populate ();
 void pl_notebook_purge ();
+void pl_notebook_switch_to_page (int page_num);
 
 void pl_notebook_update (void * data, void * user);
 void pl_notebook_activate (void * data, void * user);

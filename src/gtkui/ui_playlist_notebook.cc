@@ -384,10 +384,15 @@ static void create_tab (int list_idx, Playlist list)
     }
 }
 
+void pl_notebook_switch_to_page (int page_num)
+{
+    gtk_notebook_set_current_page ((GtkNotebook *) pl_notebook, page_num);
+}
+
 static void switch_to_active ()
 {
     int active_idx = Playlist::active_playlist ().index ();
-    gtk_notebook_set_current_page ((GtkNotebook *) pl_notebook, active_idx);
+    pl_notebook_switch_to_page (active_idx);
 }
 
 void pl_notebook_populate ()
