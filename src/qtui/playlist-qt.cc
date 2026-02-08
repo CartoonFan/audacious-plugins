@@ -178,6 +178,19 @@ void PlaylistWidget::keyPressEvent(QKeyEvent * event)
         }
     }
 
+    if (event->modifiers() & Qt::ControlModifier)
+    {
+        switch (event->key())
+        {
+        case Qt::Key_PageUp:
+            pl_prev();
+            return;
+        case Qt::Key_PageDown:
+            pl_next();
+            return;
+        }
+    }
+
     audqt::TreeView::keyPressEvent(event);
 }
 
