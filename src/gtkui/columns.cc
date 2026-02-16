@@ -50,7 +50,9 @@ const char * const pw_col_names[PW_COLS] = {
     N_("Comment"),
     N_("Publisher"),
     N_("Catalog Number"),
-    N_("Disc")
+    N_("Disc"),
+    N_("File Created"),
+    N_("File Modified"),
 };
 
 int pw_num_cols;
@@ -75,7 +77,9 @@ static const char * const pw_col_keys[PW_COLS] = {
     "comment",
     "publisher",
     "catalog-number",
-    "disc"
+    "disc",
+    "file-created",
+    "file-modified",
 };
 
 static const int pw_default_widths[PW_COLS] = {
@@ -96,7 +100,9 @@ static const int pw_default_widths[PW_COLS] = {
     275,  // comment
     175,  // publisher
     75,   // catalog number
-    10    // disc
+    10,   // disc
+    50,   // file created
+    50,   // file modified
 };
 
 void pw_col_init ()

@@ -19,6 +19,7 @@
 
 #include <gtk/gtk.h>
 
+#define AUD_GLIB_INTEGRATION
 #include <libaudcore/audstrings.h>
 #include <libaudcore/i18n.h>
 #include <libaudcore/mainloop.h>
@@ -51,7 +52,9 @@ static const GType pw_col_types[PW_COLS] =
     G_TYPE_STRING,  // comment
     G_TYPE_STRING,  // publisher
     G_TYPE_STRING,  // catalog number
-    G_TYPE_STRING   // disc
+    G_TYPE_STRING,  // disc
+    G_TYPE_STRING,  // file created
+    G_TYPE_STRING,  // file modified
 };
 
 static const int pw_col_min_widths[PW_COLS] = {
@@ -72,7 +75,9 @@ static const int pw_col_min_widths[PW_COLS] = {
     10,  // comment,
     10,  // publisher
     3,   // catalog number
-    2    // disc
+    2,   // disc
+    10,  // file created
+    10,  // file modified
 };
 
 static const bool pw_col_label[PW_COLS] = {
@@ -93,7 +98,9 @@ static const bool pw_col_label[PW_COLS] = {
     true,   // comment
     true,   // publisher
     false,  // catalog number
-    false   // disc
+    false,  // disc
+    true,   // file created
+    true,   // file modified
 };
 
 static const Playlist::SortType pw_col_sort_types[PW_COLS] = {
@@ -114,7 +121,9 @@ static const Playlist::SortType pw_col_sort_types[PW_COLS] = {
     Playlist::Comment,         // comment
     Playlist::Publisher,       // publisher
     Playlist::CatalogNum,      // catalog number
-    Playlist::Disc             // disc
+    Playlist::Disc,            // disc
+    Playlist::FileCreated,     // file created
+    Playlist::FileModified,    // file modified
 };
 
 struct PlaylistWidgetData
@@ -135,6 +144,21 @@ static void set_int_from_tuple (GValue * value, const Tuple & tuple, Tuple::Fiel
     int i = tuple.get_int (field);
     if (i > 0)
         g_value_take_string (value, g_strdup_printf ("%d", i));
+    else
+        g_value_set_string (value, "");
+}
+
+static void set_datetime_from_tuple (GValue * value, const Tuple & tuple, Tuple::Field field)
+{
+    int64_t t = tuple.get_int64 (field);
+
+    if (t > 0)
+    {
+        GDateTime * dt = g_date_time_new_from_unix_local (t);
+        CharPtr str (g_date_time_format (dt, "%x %X")); // locale-aware date+time format
+        g_value_set_string (value, str);
+        g_date_time_unref (dt);
+    }
     else
         g_value_set_string (value, "");
 }
@@ -241,6 +265,12 @@ static void get_value (void * user, int row, int column, GValue * value)
         break;
     case PW_COL_DISC:
         set_int_from_tuple (value, tuple, Tuple::Disc);
+        break;
+    case PW_COL_FILE_CREATED:
+        set_datetime_from_tuple (value, tuple, Tuple::FileCreated);
+        break;
+    case PW_COL_FILE_MODIFIED:
+        set_datetime_from_tuple (value, tuple, Tuple::FileModified);
         break;
     }
 }
