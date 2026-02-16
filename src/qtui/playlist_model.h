@@ -50,6 +50,8 @@ public:
         Publisher,
         CatalogNum,
         Disc,
+        FileCreated,
+        FileModified,
         n_cols
     };
 

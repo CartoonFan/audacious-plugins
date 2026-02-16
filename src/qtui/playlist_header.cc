@@ -35,10 +35,10 @@
 #include <libaudqt/libaudqt.h>
 
 static const char * const s_col_keys[] = {
-    "number",       "title",          "artist", "year",    "album",
-    "album-artist", "track",          "genre",  "queued",  "length",
-    "path",         "filename",       "custom", "bitrate", "comment",
-    "publisher",    "catalog-number", "disc"};
+    "number",       "title",          "artist", "year",         "album",
+    "album-artist", "track",          "genre",  "queued",       "length",
+    "path",         "filename",       "custom", "bitrate",      "comment",
+    "publisher",    "catalog-number", "disc",   "file-created", "file-modified"};
 
 static const int s_default_widths[] = {
     25,  // entry number
@@ -58,7 +58,9 @@ static const int s_default_widths[] = {
     275, // comment
     175, // publisher
     75,  // catalog number
-    25   // disc
+    25,  // disc
+    190, // file created
+    190, // file modified
 };
 
 static const Playlist::SortType s_sort_types[] = {
@@ -79,7 +81,9 @@ static const Playlist::SortType s_sort_types[] = {
     Playlist::Comment,        // comment,
     Playlist::Publisher,      // publisher
     Playlist::CatalogNum,     // catalog number
-    Playlist::Disc            // disc
+    Playlist::Disc,           // disc
+    Playlist::FileCreated,    // file created
+    Playlist::FileModified,   // file modified
 };
 
 static_assert(aud::n_elems(s_col_keys) == PlaylistModel::n_cols,
