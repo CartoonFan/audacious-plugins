@@ -29,7 +29,8 @@
 
 #include <libaudqt/libaudqt.h>
 
-class AlbumArtQt : public GeneralPlugin {
+class AlbumArtQt : public GeneralPlugin
+{
 public:
     static constexpr PluginInfo info = {
         N_("Album Art"),
@@ -43,10 +44,11 @@ public:
     void * get_qt_widget () override;
 };
 
-class ArtLabel : public QLabel {
+class ArtLabel : public QLabel
+{
 public:
 #if QT_VERSION >= QT_VERSION_CHECK(5, 6, 0)
-    ArtLabel (QWidget * parent = nullptr, Qt::WindowFlags f = Qt::WindowFlags()) : QLabel (parent, f)
+    ArtLabel (QWidget * parent = nullptr, Qt::WindowFlags f = Qt::WindowFlags ()) : QLabel (parent, f)
 #else
     ArtLabel (QWidget * parent = nullptr, Qt::WindowFlags f = 0) : QLabel (parent, f)
 #endif
@@ -55,7 +57,7 @@ public:
     }
 
 #if QT_VERSION >= QT_VERSION_CHECK(5, 6, 0)
-    ArtLabel (const QString & text, QWidget * parent = nullptr, Qt::WindowFlags f = Qt::WindowFlags()) : QLabel (text, parent, f)
+    ArtLabel (const QString & text, QWidget * parent = nullptr, Qt::WindowFlags f = Qt::WindowFlags ()) : QLabel (text, parent, f)
 #else
     ArtLabel (const QString & text, QWidget * parent = nullptr, Qt::WindowFlags f = 0) : QLabel (text, parent, f)
 #endif
@@ -105,8 +107,8 @@ private:
     static constexpr int MARGIN = 4;
 
     const HookReceiver<ArtLabel>
-        update_hook{"playback ready", this, &ArtLabel::update_art},
-        clear_hook{"playback stop", this, &ArtLabel::clear};
+        update_hook{"playback ready", this, & ArtLabel::update_art},
+        clear_hook{"playback stop", this, & ArtLabel::clear};
 
     QPixmap origPixmap;
     QSize origSize;
@@ -117,33 +119,38 @@ private:
         setMinimumSize (MARGIN + 1, MARGIN + 1);
         setAlignment (Qt::AlignCenter);
 
-        if (aud_drct_get_ready())
-            update_art();
+        if (aud_drct_get_ready ())
+            update_art ();
     }
 
     void drawArt ()
     {
-        qreal r = qApp->devicePixelRatio();
-        if (aud::abs(r - 1.0) <= 0.01 &&
-            origSize.width () <= size ().width () - MARGIN &&
-            origSize.height () <= size ().height() - MARGIN) {
+        qreal r = qApp->devicePixelRatio ();
+        QSize currentSize = size ();
+
+        if (aud::abs (r - 1.0) <= 0.01 &&
+            origSize.width () <= currentSize.width () - MARGIN &&
+            origSize.height () <= currentSize.height () - MARGIN)
+        {
             // If device pixel ratio is close to 1:1 (within 1%) and art is
             // smaller than widget, set pixels directly w/o scaling
             setPixmap (origPixmap);
-        } else {
+        }
+        else
+        {
             // Otherwise scale image with device pixel ratio, but limit size to
             // widget dimensions.
-            auto width = std::min(r * (size().width() - MARGIN),
-                                  r * origSize.width());
-            auto height = std::min(r * (size().height() - MARGIN),
-                                   r * origSize.height());
+            auto width = std::min (r * (currentSize.width () - MARGIN),
+                                   r * origSize.width ());
+            auto height = std::min (r * (currentSize.height () - MARGIN),
+                                    r * origSize.height ());
 
             setPixmap (origPixmap.scaled (width, height, Qt::KeepAspectRatio,
                                           Qt::SmoothTransformation));
         }
 
 #ifdef Q_OS_MAC
-        repaint();
+        repaint ();
 #endif
     }
 };
