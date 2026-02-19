@@ -79,27 +79,26 @@ public:
     }
 
 protected:
-    virtual void resizeEvent (QResizeEvent * event)
+    void resizeEvent (QResizeEvent * event) override
     {
         QLabel::resizeEvent (event);
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 15, 0)
-        QPixmap pm = pixmap (Qt::ReturnByValue);
-        if (! origPixmap.isNull () && ! pm.isNull () &&
-                (size ().width () <= origSize.width () + MARGIN ||
-                 size ().height () <= origSize.height () + MARGIN ||
-                 pm.size ().width () != origSize.width () ||
-                 pm.size ().height () != origSize.height ()))
-            drawArt ();
+        QPixmap pm;
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+        pm = pixmap ();
+#elif QT_VERSION >= QT_VERSION_CHECK(5, 15, 0)
+        pm = pixmap (Qt::ReturnByValue);
 #else
-        const QPixmap * pm = pixmap ();
-        if (! origPixmap.isNull () && pm && ! pm->isNull () &&
-                (size ().width () <= origSize.width () + MARGIN ||
-                 size ().height () <= origSize.height () + MARGIN ||
-                 pm->size ().width () != origSize.width () ||
-                 pm->size ().height () != origSize.height ()))
-            drawArt ();
+        if (const QPixmap * ptr = pixmap ())
+            pm = *ptr;
 #endif
+        if (! origPixmap.isNull () && ! pm.isNull () &&
+            (size ().width () <= origSize.width () + MARGIN ||
+            size ().height () <= origSize.height () + MARGIN ||
+            pm.size () != origSize))
+        {
+            drawArt ();
+        }
     }
 
 private:
