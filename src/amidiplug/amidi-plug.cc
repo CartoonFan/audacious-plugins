@@ -345,7 +345,10 @@ void AMIDIPlug::play_loop (midifile_t & midifile)
     }
 
     if (! stopped)
-        generate_ticks (midifile, midifile.max_tick - tick);
+    {
+        if (midifile.max_tick > tick)
+            generate_ticks (midifile, midifile.max_tick - tick);
+    }
 
     backend_reset ();
 }
